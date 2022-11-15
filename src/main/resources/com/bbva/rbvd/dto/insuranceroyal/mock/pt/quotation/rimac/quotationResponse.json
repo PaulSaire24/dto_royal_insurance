@@ -1,0 +1,148 @@
+{
+  "payload": {
+    "status": "1",
+    "mensaje": "Se completó la operación correctamente.. ",
+    "detalleCotizacion": [
+      {
+        "fecCreacion": "2022-10-28",
+        "fecExpiracion": "2022-11-27",
+        "fecFinVig": "2022-11-26",
+        "fecIniVig": "2022-10-28",
+        "idCotizacion": "ba9a0b2e-4704-4b17-ba05-b2ba5dc0ef66",
+        "moneda": "USD",
+        "tipoDocumento": "L",
+        "nroDocumento": "45723214",
+        "indSeleccionado": "S",
+        "plan": [
+          {
+            "idPlan": 532914,
+            "descripcionPlan": "PROTECCION TARJETA",
+            "primaNeta": 27.4,
+            "primaBruta": 33.3,
+            "indicadorInspeccion": "N",
+            "financiamientos": [
+              {
+                "idFinanciamiento": 56,
+                "numeroCuotas": 1,
+                "fechaInicio": "2022-10-28",
+                "fechaFinal": "2023-10-28",
+                "cuotasFinanciamiento": [
+                  {
+                    "cuota": 1,
+                    "monto": 33.3,
+                    "fechaVencimiento": "2022-11-28"
+                  }
+                ]
+              }
+            ],
+            "coberturas": [
+              {
+                "idCobertura": 11160,
+                "descripcionCobertura": "USO INDEBIDO DE TARJETA",
+                "tipoCobertura": "COB",
+                "primaBruta": 12.32,
+                "primaNeta": 10.14,
+                "moneda": "USD",
+                "sumaAsegurada": 10000,
+                "condicion": "OBL",
+                "porcentajeSeleccionado": "100%"
+              },
+              {
+                "idCobertura": 11175,
+                "descripcionCobertura": "FRAUDE, CLONACIÓN A ADULTERACIÓN",
+                "tipoCobertura": "COB",
+                "primaBruta": 4.17,
+                "primaNeta": 3.43,
+                "moneda": "USD",
+                "sumaAsegurada": 10000,
+                "condicion": "OBL",
+                "porcentajeSeleccionado": "100%"
+              },
+              {
+                "idCobertura": 12125,
+                "descripcionCobertura": "ROBO DE DINERO EXTRAIDO DEL CAJERO",
+                "tipoCobertura": "COB",
+                "primaBruta": 4.19,
+                "primaNeta": 3.45,
+                "moneda": "USD",
+                "sumaAsegurada": 1000,
+                "condicion": "OBL",
+                "porcentajeSeleccionado": "100%"
+              },
+              {
+                "idCobertura": 12126,
+                "descripcionCobertura": "MUERTE ACCIDENTAL ASEGURADO",
+                "tipoCobertura": "COB",
+                "primaBruta": 4.19,
+                "primaNeta": 3.45,
+                "moneda": "USD",
+                "sumaAsegurada": 10000,
+                "condicion": "OBL",
+                "porcentajeSeleccionado": "100%"
+              },
+              {
+                "idCobertura": 11176,
+                "descripcionCobertura": "REEMBOLSO POR GASTOS POR HOSPITALIZACIÓN",
+                "tipoCobertura": "COB",
+                "primaBruta": 4.19,
+                "primaNeta": 3.45,
+                "moneda": "USD",
+                "sumaAsegurada": 4500,
+                "condicion": "OBL",
+                "porcentajeSeleccionado": "100%"
+              },
+              {
+                "idCobertura": 11169,
+                "descripcionCobertura": "REEMBOLSO POR TRAMITE DE DOCUMENTO",
+                "tipoCobertura": "COB",
+                "primaBruta": 2.11,
+                "primaNeta": 1.74,
+                "moneda": "USD",
+                "sumaAsegurada": 250,
+                "condicion": "OBL",
+                "porcentajeSeleccionado": "100%"
+              },
+              {
+                "idCobertura": 12177,
+                "descripcionCobertura": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
+                "tipoCobertura": "COB",
+                "primaBruta": 2.11,
+                "primaNeta": 1.74,
+                "moneda": "USD",
+                "sumaAsegurada": 450,
+                "condicion": "OBL",
+                "porcentajeSeleccionado": "100%"
+              }
+            ],
+            "servicios": [],
+            "deducibles": [],
+            "clausulas": [
+              {
+                "definicion": "AUXILIO MECÁNICO",
+                "clausula": 17418425,
+                "componente": 25092283
+              }
+            ],
+            "datosParticulares": [
+              {
+                "etiqueta": "COMPOSICION_DEL_GRUPO_ASEGURADO",
+                "codigo": "56267",
+                "valor": "TITULAR"
+              },
+              {
+                "etiqueta": "PLAN_ACC",
+                "codigo": "64875",
+                "valor": "1"
+              },
+              {
+                "etiqueta": "FACTOR_RESULTANTE",
+                "codigo": "",
+                "valor": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

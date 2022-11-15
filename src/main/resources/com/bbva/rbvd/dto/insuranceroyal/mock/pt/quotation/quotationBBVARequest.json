@@ -1,0 +1,20 @@
+{
+  "holder": {
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "37282913"
+    }
+  },
+  "product": {
+    "id": "834",
+    "plan": {
+      "id": "08"
+    }
+  },
+  "externalQuotationId": "ba9a0b2e-4704-4b17-ba05-b2ba5dc0ef66",
+  "insuranceCompany": {
+    "id": "01"
+  }
+}
