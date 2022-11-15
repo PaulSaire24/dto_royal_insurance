@@ -13,12 +13,58 @@
 	<packaging>bundle</packaging>
 	<description>Deployment unit dto_royal_insurance of uuaa rbvd</description>
 	<properties>
+		<source.path>/src/main/java/com/bbva/rbvd/dto/insuranceroyal</source.path>
+		<sonar.coverage.exclusions>
+			${source.path}/aso/**.java,
+			${source.path}/dao/**.java,
+			${source.path}/commons/**.java,
+			${source.path}/pt/quotation/**.java,
+			${source.path}/pt/simulation/**.java,
+			${source.path}/rimac/commons/**.java,
+			${source.path}/rimac/pt/search/**.java,
+			${source.path}/rimac/pt/quotation/**.java,
+			${source.path}/rimac/pt/simulation/**.java,
+			${source.path}/mock/**.java,
+			${source.path}/utils/**.java
+		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.bbva.elara</groupId>
+			<artifactId>elara-exception</artifactId>
+			<version>7.5.5</version>
+			<scope>compile</scope>
+		</dependency>
+        <dependency>
+            <groupId>com.bbva.apx.dto</groupId>
+            <artifactId>apx-dto</artifactId>
+            <version>[0.0, )</version>
+        </dependency>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.4</version>
 		</dependency>
 	</dependencies>
 	<build>
