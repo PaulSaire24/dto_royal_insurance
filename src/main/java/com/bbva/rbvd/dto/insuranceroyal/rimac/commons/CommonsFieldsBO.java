@@ -7,7 +7,7 @@ public class CommonsFieldsBO {
 
     private String producto;
     private String moneda;
-	private List<ParticularDataBO> datosParticulares;
+	private List<DatoParticularBO> datosParticulares;
     private String idCotizacion;
     private BigDecimal primaNeta;
     private BigDecimal primaBruta;
@@ -65,8 +65,10 @@ public class CommonsFieldsBO {
     public void setStatus(String status) {this.status = status;}
     public String getMensaje() {return mensaje;}
     public void setMensaje(String mensaje) {this.mensaje = mensaje;}
-	public List<ParticularDataBO> getDatosParticulares() {return datosParticulares;}
-    public void setDatosParticulares(List<ParticularDataBO> datosParticulares) { this.datosParticulares = datosParticulares; }
+
+    public List<DatoParticularBO> getDatosParticulares() { return datosParticulares; }
+    public void setDatosParticulares(List<DatoParticularBO> datosParticulares) { this.datosParticulares = datosParticulares; }
+
     public String getCodigoAgrupador() {return codigoAgrupador;}
     public void setCodigoAgrupador(String codigoAgrupador) {this.codigoAgrupador = codigoAgrupador;}
     public String getTipoDocumento() {return tipoDocumento;}
