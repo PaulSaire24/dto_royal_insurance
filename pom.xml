@@ -20,10 +20,7 @@
 			${source.path}/commons/**.java,
 			${source.path}/pt/quotation/**.java,
 			${source.path}/pt/simulation/**.java,
-			${source.path}/rimac/commons/**.java,
-			${source.path}/rimac/pt/search/**.java,
-			${source.path}/rimac/pt/quotation/**.java,
-			${source.path}/rimac/pt/simulation/**.java,
+			${source.path}/rimac/**.java,
 			${source.path}/mock/**.java,
 			${source.path}/utils/**.java
 		</sonar.coverage.exclusions>
