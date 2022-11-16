@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "producto": "PROTECCION_TARJETA",
+    "moneda": "SOL",
+    "planes": [
+      533333
+    ],
+    "datosParticulares": [
+      {
+        "etiqueta": "COMPOSICION_DEL_GRUPO_ASEGURADO",
+        "codigo": "56267",
+        "valor": "TITULAR"
+      },
+      {
+        "etiqueta": "PLAN_ACC",
+        "codigo": "64875",
+        "valor": "1"
+      }
+    ],
+    "asegurado": {
+      "tipoDocumento": "L",
+      "numeroDocumento": "45723214"
+    }
+  }
+}
