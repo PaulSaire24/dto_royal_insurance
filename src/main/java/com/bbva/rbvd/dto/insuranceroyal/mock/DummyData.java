@@ -37,12 +37,12 @@ public class DummyData {
 
 	public InsuranceSimulationBO getInsuranceSimulationPTRequestRimac() throws IOException {
 		return this.objectMapperHelper.readValue(Thread.currentThread().getContextClassLoader().
-				getResourceAsStream("com/bbva/pisd/dto/insurance/mock/pt/simulation/simulationPTRequestRimac.json"), InsuranceSimulationBO.class);
+				getResourceAsStream("com/bbva/rbvd/dto/insuranceroyal/mock/pt/simulation/simulationPTRequestRimac.json"), InsuranceSimulationBO.class);
 	}
 
 	public TierASO getTierMockResponse() throws IOException {
 		return objectMapperHelper.readValue(Thread.currentThread().getContextClassLoader().
-				getResourceAsStream("com/bbva/pisd/dto/insurance/mock/pt/tier/tierResponse.json"), TierASO.class);
+				getResourceAsStream("com/bbva/rbvd/dto/insuranceroyal/mock/pt/tier/tierResponse.json"), TierASO.class);
 	}
 
 }
