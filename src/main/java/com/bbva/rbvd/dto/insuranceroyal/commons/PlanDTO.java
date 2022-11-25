@@ -1,5 +1,6 @@
 package com.bbva.rbvd.dto.insuranceroyal.commons;
 
+import com.bbva.rbvd.dto.insuranceroyal.pt.simulation.ConditionsDTO;
 import com.bbva.rbvd.dto.insuranceroyal.pt.simulation.CoverageDTO;
 import com.bbva.rbvd.dto.insuranceroyal.pt.simulation.ExclusionDTO;
 
@@ -11,7 +12,9 @@ public class PlanDTO extends CommonsFieldsDTO{
     private List<ExclusionDTO> exclusions;
     private TotalInstallmentDTO totalInstallment;
     private List<InstallmentPlanDTO> installmentPlans;
-    private boolean isRecommended;
+
+    private List<ConditionsDTO> conditions;
+
 
     public List<CoverageDTO> getCoverages() { return coverages; }
     public void setCoverages(List<CoverageDTO> coverages) { this.coverages = coverages; }
@@ -21,8 +24,9 @@ public class PlanDTO extends CommonsFieldsDTO{
     public void setTotalInstallment(TotalInstallmentDTO totalInstallment) { this.totalInstallment = totalInstallment; }
     public List<InstallmentPlanDTO> getInstallmentPlans() {return installmentPlans;}
     public void setInstallmentPlans(List<InstallmentPlanDTO> installmentPlans) {this.installmentPlans = installmentPlans;}
-    public boolean isRecommended() {return isRecommended;}
-    public void setRecommended(boolean isRecommended) {this.isRecommended = isRecommended;}
+
+    public List<ConditionsDTO> getConditions() { return conditions; }
+    public void setConditions(List<ConditionsDTO> conditions) { this.conditions = conditions; }
 
     @Override
     public String toString() {
@@ -34,7 +38,7 @@ public class PlanDTO extends CommonsFieldsDTO{
         sb.append(", installmentPlans=").append(installmentPlans);
         sb.append(", coverages=").append(coverages);
         sb.append(", exclusions='").append(exclusions).append('\'');
-        sb.append(", isRecommended='").append(isRecommended).append('\'');
+        sb.append(", isRecommended='").append(this.getIsRecommended()).append('\'');
         sb.append('}');
         return sb.toString();
     }
