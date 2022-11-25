@@ -2,6 +2,7 @@ package com.bbva.rbvd.dto.insuranceroyal.pt.quotation;
 
 import org.joda.time.LocalDate;
 
+import com.bbva.rbvd.dto.insuranceroyal.commons.BankDTO;
 import com.bbva.rbvd.dto.insuranceroyal.commons.CommonsFieldsDTO;
 import com.bbva.rbvd.dto.insuranceroyal.commons.HolderDTO;
 import com.bbva.rbvd.dto.insuranceroyal.commons.ProductDTO;
@@ -14,6 +15,7 @@ public class PTInsuranceQuotationDTO extends CommonsFieldsDTO {
     private ProductDTO product;
     private String externalQuotationId;
     private InsuranceCompanyDTO insuranceCompany;
+    private BankDTO bank;
 
     public HolderDTO getHolder() {return holder;}
     public void setHolder(HolderDTO holder) {this.holder = holder;}
@@ -27,6 +29,8 @@ public class PTInsuranceQuotationDTO extends CommonsFieldsDTO {
     public void setExternalQuotationId(String externalQuotationId) { this.externalQuotationId = externalQuotationId; }
     public InsuranceCompanyDTO getInsuranceCompany() {return insuranceCompany;}
     public void setInsuranceCompany(InsuranceCompanyDTO insuranceCompany) {this.insuranceCompany = insuranceCompany;}
+    public BankDTO getBank() {return bank;}
+    public void setBank(BankDTO bank) {this.bank = bank;}
 
     @Override
     public String toString() {
@@ -39,8 +43,10 @@ public class PTInsuranceQuotationDTO extends CommonsFieldsDTO {
         sb.append(", product=").append(product);
         sb.append(", externalQuotationId='").append(externalQuotationId).append('\'');
         sb.append(", insuranceCompany=").append(insuranceCompany);
+        sb.append(", bank=").append(bank);
         sb.append('}');
         return sb.toString();
     }
+
 
 }

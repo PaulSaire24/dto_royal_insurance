@@ -59,5 +59,5 @@ public class CommonsFieldsDTO extends AbstractDTO {
     public void setBankingFactor(Double bankingFactor) { this.bankingFactor = bankingFactor; }
     public String getIsPrincipal() { return isPrincipal; }
     public void setIsPrincipal(String isPrincipal) { this.isPrincipal = isPrincipal; }
-
+    
 }
