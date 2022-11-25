@@ -1,5 +1,6 @@
 package com.bbva.rbvd.dto.insuranceroyal.commons;
 
+import com.bbva.rbvd.dto.insuranceroyal.pt.simulation.ConditionsDTO;
 import com.bbva.rbvd.dto.insuranceroyal.pt.simulation.CoverageDTO;
 import com.bbva.rbvd.dto.insuranceroyal.pt.simulation.ExclusionDTO;
 
@@ -11,6 +12,8 @@ public class PlanDTO extends CommonsFieldsDTO{
     private List<ExclusionDTO> exclusions;
     private TotalInstallmentDTO totalInstallment;
     private List<InstallmentPlanDTO> installmentPlans;
+
+    private List<ConditionsDTO> conditions;
     private boolean isRecommended;
 
     public List<CoverageDTO> getCoverages() { return coverages; }
@@ -23,6 +26,9 @@ public class PlanDTO extends CommonsFieldsDTO{
     public void setInstallmentPlans(List<InstallmentPlanDTO> installmentPlans) {this.installmentPlans = installmentPlans;}
     public boolean isRecommended() {return isRecommended;}
     public void setRecommended(boolean isRecommended) {this.isRecommended = isRecommended;}
+
+    public List<ConditionsDTO> getConditions() { return conditions; }
+    public void setConditions(List<ConditionsDTO> conditions) { this.conditions = conditions; }
 
     @Override
     public String toString() {

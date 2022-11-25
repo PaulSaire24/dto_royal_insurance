@@ -1,9 +1,11 @@
 package com.bbva.rbvd.dto.insuranceroyal.rimac.commons;
 
 import org.codehaus.jackson.annotate.JsonIgnore;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class PlanBO extends CommonsFieldsBO{
 
     private Integer idPlan;
@@ -16,8 +18,9 @@ public class PlanBO extends CommonsFieldsBO{
     private List<ClausesBO> clausulas;
     private String indicadorRecomendado;
     @JsonIgnore
-    private List<String> exclusiones;
-    
+    private List<Exclusion> exclusiones;
+
+    private List<ConsiderationsBO> consideraciones;
 
     public List<ClausesBO> getClausulas() {return clausulas;}
 	public void setClausulas(List<ClausesBO> clausulas) {this.clausulas = clausulas;}
@@ -33,11 +36,13 @@ public class PlanBO extends CommonsFieldsBO{
     public void setServicios(List<ServiceBO> servicios) {this.servicios = servicios;}
     public List<DeductibleBO> getDeducibles() {return deducibles;}
     public void setDeducibles(List<DeductibleBO> deducibles) {this.deducibles = deducibles;}
-    public List<String> getExclusiones() {return exclusiones;}
-    public void setExclusiones(List<String> exclusiones) {this.exclusiones = exclusiones;}
+    public List<Exclusion> getExclusiones() { return exclusiones; }
+    public void setExclusiones(List<Exclusion> exclusiones) { this.exclusiones = exclusiones; }
     public Integer getPlan() { return plan; }
     public void setPlan(Integer plan) { this.plan = plan; }
     public String getIndicadorRecomendado() {return indicadorRecomendado;}
     public void setIndicadorRecomendado(String indicadorRecomendado) {this.indicadorRecomendado = indicadorRecomendado;}
 
+    public List<ConsiderationsBO> getConsideraciones() { return consideraciones; }
+    public void setConsideraciones(List<ConsiderationsBO> consideraciones) { this.consideraciones = consideraciones; }
 }
