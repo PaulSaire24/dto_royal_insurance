@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import com.bbva.rbvd.dto.insuranceroyal.aso.tier.TierASO;
 import com.bbva.rbvd.dto.insuranceroyal.pt.quotation.PTInsuranceQuotationDTO;
+import com.bbva.rbvd.dto.insuranceroyal.pt.simulation.PTInsuranceSimulationDTO;
 import com.bbva.rbvd.dto.insuranceroyal.rimac.pt.quotation.InsuranceQuotationBO;
 import com.bbva.rbvd.dto.insuranceroyal.rimac.pt.search.SearchInsuranceBO;
 import com.bbva.rbvd.dto.insuranceroyal.rimac.pt.simulation.InsuranceSimulationBO;
@@ -50,5 +51,9 @@ public class DummyData {
 				getResourceAsStream("com/bbva/rbvd/dto/insuranceroyal/mock/pt/simulation/response/rimacResponse.json"), InsuranceSimulationBO.class);
 	}
 
+	public PTInsuranceSimulationDTO getPTMockResponse() throws IOException {
+		return objectMapperHelper.readValue(Thread.currentThread().getContextClassLoader().
+				getResourceAsStream("com/bbva/rbvd/dto/insuranceroyal/mock/pt/simulation/response/simulationResponsePT.json"), PTInsuranceSimulationDTO.class);
+	}
 
 }
