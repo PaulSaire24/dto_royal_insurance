@@ -1,0 +1,60 @@
+{
+  "customerId": "3456",
+  "holder": {
+    "id": "77712345",
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "70433782"
+    }
+  },
+  "product": {
+    "plans": [
+      {
+        "id": "13",
+        "name": "BÁSICO",
+        "isRecommended": "1",
+        "externalSimulationId": "dedede"
+        "conditions": [
+          {
+            "id": "S",
+            "name": "Semestral",
+            "description": "Semestral"
+          }
+        ],
+        "totalInstallment": [
+          {
+            "amount": 1052.29,
+            "currency": "USD"
+          }
+        ],
+        "installmentPlan": {
+          "period": {
+            "id": "S",
+            "name": "Semestral"
+          },
+          "paymentAmount": {
+            "amount": 1052.29,
+            "currency": "USD"
+          }
+        },
+        "coverages": [
+          {
+            "id": "C001",
+            "name": "Cubre el robo total del auto (no ubicado).",
+            "descrption": "test",
+            "isPrincipal": "1"
+          }
+        ],
+        "exclusions": [
+          {
+            "id": "E001",
+            "name": "Suicidio",
+            "descrption": "test"
+          }
+        ]
+      }
+    ]
+  }
+}
