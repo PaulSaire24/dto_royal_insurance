@@ -16,7 +16,7 @@ public enum InsuranceRoyalProperties {
 	ID_API_CRYPTO("createCrypto"),
 	ID_API_TIER("listCustomerClassifications"),
 	URI_QUOTATION_PT_KEY("rimac.quotation.pt.uri"),
-	
+	ID_PLANES_PT("planesPT"),
 	ID_API_PT_INSURANCE_QUOTATION_RIMAC("api.connector.quotationPT.rimac.url");
 
 	
