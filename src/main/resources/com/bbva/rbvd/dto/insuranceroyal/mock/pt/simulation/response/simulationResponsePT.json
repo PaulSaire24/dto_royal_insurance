@@ -13,7 +13,7 @@
   "product": {
     "plans": [
       {
-        "id": "13",
+        "id": "12",
         "name": "BÁSICO",
         "isRecommended": true,
         "conditions": [
@@ -42,7 +42,7 @@
             "id": "C001",
             "name": "Cubre el robo total del auto (no ubicado).",
             "description": "test",
-            "isPrincipal": "1"
+            "principal": true
           }
         ],
         "exclusions": [
