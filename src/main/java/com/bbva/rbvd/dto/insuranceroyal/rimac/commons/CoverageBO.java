@@ -17,6 +17,9 @@ public class CoverageBO extends CommonsFieldsBO {
     private String porcentajeSeleccionado;
     private String tipoCobertura;
 
+    private String indSeleccionar;
+
+
     public Integer getCodigoCobertura() {return codigoCobertura;}
     public void setCodigoCobertura(Integer codigoCobertura) {this.codigoCobertura = codigoCobertura;}
     public String getPorcentaje() {return porcentaje;}
@@ -39,5 +42,7 @@ public class CoverageBO extends CommonsFieldsBO {
     public void setTipoCobertura(String tipoCobertura) { this.tipoCobertura = tipoCobertura; }
     public GrouperBO getAgrupador() {return agrupador;}
     public void setAgrupador(GrouperBO agrupador) {this.agrupador = agrupador;}
+    public String getIndSeleccionar() { return indSeleccionar; }
+    public void setIndSeleccionar(String indSeleccionar) { this.indSeleccionar = indSeleccionar; }
 
 }

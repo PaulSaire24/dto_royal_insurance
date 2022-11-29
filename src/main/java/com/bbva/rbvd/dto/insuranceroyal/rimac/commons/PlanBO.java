@@ -11,15 +11,21 @@ public class PlanBO extends CommonsFieldsBO{
     private Integer idPlan;
     private String descripcionPlan;
     private String indicadorInspeccion;
+    @JsonIgnore
     private List<FinancingBO> financiamientos            ;
+    @JsonIgnore
     private List<ServiceBO> servicios;
+    @JsonIgnore
     private List<DeductibleBO> deducibles;
     private Integer plan;
+    @JsonIgnore
     private List<ClausesBO> clausulas;
     private String indicadorRecomendado;
+
+    private String indPlanRecomendado;
     @JsonIgnore
     private List<Exclusion> exclusiones;
-
+    @JsonIgnore
     private List<ConsiderationsBO> consideraciones;
 
     public List<ClausesBO> getClausulas() {return clausulas;}
@@ -45,4 +51,8 @@ public class PlanBO extends CommonsFieldsBO{
 
     public List<ConsiderationsBO> getConsideraciones() { return consideraciones; }
     public void setConsideraciones(List<ConsiderationsBO> consideraciones) { this.consideraciones = consideraciones; }
+
+    public String getIndPlanRecomendado() { return indPlanRecomendado; }
+    public void setIndPlanRecomendado(String indPlanRecomendado) { this.indPlanRecomendado = indPlanRecomendado; }
+
 }
