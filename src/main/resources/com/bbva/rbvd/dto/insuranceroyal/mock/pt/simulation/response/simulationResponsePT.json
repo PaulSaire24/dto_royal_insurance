@@ -1,5 +1,6 @@
 {
   "customerId": "3456",
+  "externalSimulationId": "dedede",
   "holder": {
     "id": "77712345",
     "identityDocument": {
@@ -12,10 +13,9 @@
   "product": {
     "plans": [
       {
-        "id": "13",
+        "id": "12",
         "name": "BÁSICO",
-        "isRecommended": "1",
-        "externalSimulationId": "dedede"
+        "isRecommended": true,
         "conditions": [
           {
             "id": "S",
@@ -23,13 +23,11 @@
             "description": "Semestral"
           }
         ],
-        "totalInstallment": [
-          {
+        "totalInstallment": {
             "amount": 1052.29,
             "currency": "USD"
-          }
-        ],
-        "installmentPlan": {
+          },
+        "installmentPlans":[{
           "period": {
             "id": "S",
             "name": "Semestral"
@@ -38,20 +36,20 @@
             "amount": 1052.29,
             "currency": "USD"
           }
-        },
+        }],
         "coverages": [
           {
             "id": "C001",
             "name": "Cubre el robo total del auto (no ubicado).",
-            "descrption": "test",
-            "isPrincipal": "1"
+            "description": "test",
+            "principal": true
           }
         ],
         "exclusions": [
           {
             "id": "E001",
             "name": "Suicidio",
-            "descrption": "test"
+            "description": "test"
           }
         ]
       }

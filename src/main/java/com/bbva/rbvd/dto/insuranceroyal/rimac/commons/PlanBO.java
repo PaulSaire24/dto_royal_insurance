@@ -1,6 +1,5 @@
 package com.bbva.rbvd.dto.insuranceroyal.rimac.commons;
 
-import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.util.List;
@@ -11,15 +10,13 @@ public class PlanBO extends CommonsFieldsBO{
     private Integer idPlan;
     private String descripcionPlan;
     private String indicadorInspeccion;
-    private List<FinancingBO> financiamientos            ;
+    private List<FinancingBO> financiamientos;
     private List<ServiceBO> servicios;
     private List<DeductibleBO> deducibles;
     private Integer plan;
     private List<ClausesBO> clausulas;
     private String indicadorRecomendado;
-
     private String indPlanRecomendado;
-
     private List<Exclusion> exclusiones;
 
     private List<ConsiderationsBO> consideraciones;
@@ -48,4 +45,6 @@ public class PlanBO extends CommonsFieldsBO{
     public void setIndPlanRecomendado(String indPlanRecomendado) { this.indPlanRecomendado = indPlanRecomendado; }
     public List<ConsiderationsBO> getConsideraciones() { return consideraciones; }
     public void setConsideraciones(List<ConsiderationsBO> consideraciones) { this.consideraciones = consideraciones; }
+
+
 }

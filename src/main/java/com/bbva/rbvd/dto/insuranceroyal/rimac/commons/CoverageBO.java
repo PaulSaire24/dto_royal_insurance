@@ -9,13 +9,15 @@ public class CoverageBO extends CommonsFieldsBO {
     private String porcentaje;
     private Integer idCobertura;
     private String descripcionCobertura;
-    private Boolean isPrincipal;
+    private String principal;
     private String condicion;
     private GrouperBO agrupador;
     private String observacionCobertura;
 	private String periodoEvento;
     private String porcentajeSeleccionado;
     private String tipoCobertura;
+    private String indSeleccionar;
+
 
     public Integer getCodigoCobertura() {return codigoCobertura;}
     public void setCodigoCobertura(Integer codigoCobertura) {this.codigoCobertura = codigoCobertura;}
@@ -25,9 +27,8 @@ public class CoverageBO extends CommonsFieldsBO {
     public void setIdCobertura(Integer idCobertura) {this.idCobertura = idCobertura;}
     public String getDescripcionCobertura() {return descripcionCobertura;}
     public void setDescripcionCobertura(String descripcionCobertura) {this.descripcionCobertura = descripcionCobertura;}
-    public Boolean getIsPrincipal() { return isPrincipal; }
-    public void setIsPrincipal(Boolean principal) { isPrincipal = principal; }
-
+    public String getPrincipal() { return principal; }
+    public void setPrincipal(String principal) { this.principal = principal; }
     public String getObservacionCobertura() {return observacionCobertura;}
     public void setObservacionCobertura(String observacionCobertura) {this.observacionCobertura = observacionCobertura;}
     public String getPeriodoEvento() {return periodoEvento;}
@@ -40,5 +41,7 @@ public class CoverageBO extends CommonsFieldsBO {
     public void setTipoCobertura(String tipoCobertura) { this.tipoCobertura = tipoCobertura; }
     public GrouperBO getAgrupador() {return agrupador;}
     public void setAgrupador(GrouperBO agrupador) {this.agrupador = agrupador;}
+    public String getIndSeleccionar() { return indSeleccionar; }
+    public void setIndSeleccionar(String indSeleccionar) { this.indSeleccionar = indSeleccionar; }
 
 }
