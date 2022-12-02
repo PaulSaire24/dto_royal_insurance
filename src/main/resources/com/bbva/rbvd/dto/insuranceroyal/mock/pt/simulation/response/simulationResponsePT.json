@@ -42,7 +42,7 @@
             "id": "C001",
             "name": "Cubre el robo total del auto (no ubicado).",
             "description": "test",
-            "principal": true
+            "isPrincipal": true
           }
         ],
         "exclusions": [
