@@ -20,9 +20,7 @@ public class CommonsFieldsDTO extends AbstractDTO {
     private String customerId;
     private TierDTO tier;
     private Double bankingFactor;
-
     private boolean isPrincipal;
-
     private Long validityDays;
 
     public String getId() {return id;}
@@ -54,8 +52,8 @@ public class CommonsFieldsDTO extends AbstractDTO {
     public Double getBankingFactor() { return this.bankingFactor; }
     public void setBankingFactor(Double bankingFactor) { this.bankingFactor = bankingFactor; }
 
-    public boolean isPrincipal() { return isPrincipal; }
-    public void setPrincipal(boolean principal) { isPrincipal = principal; }
+    public boolean getIsPrincipal() { return isPrincipal; }
+    public void setIsPrincipal(boolean principal) { isPrincipal = principal; }
 
     public Long getValidityDays() { return validityDays; }
     public void setValidityDays(Long validityDays) { this.validityDays = validityDays; }

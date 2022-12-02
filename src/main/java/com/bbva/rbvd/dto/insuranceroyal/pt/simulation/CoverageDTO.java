@@ -10,7 +10,7 @@ public class CoverageDTO extends CommonsFieldsDTO {
         sb.append("id='").append(this.getId()).append('\'');
         sb.append(", name='").append(this.getName()).append('\'');
         sb.append(", description='").append(this.getDescription()).append('\'');
-        sb.append(", isPrincipal='").append(this.isPrincipal()).append('\'');
+        sb.append(", isPrincipal='").append(this.getIsPrincipal()).append('\'');
         sb.append('}');
         return sb.toString();
     }

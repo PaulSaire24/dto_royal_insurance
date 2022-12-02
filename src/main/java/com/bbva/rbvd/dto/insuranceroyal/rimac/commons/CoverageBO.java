@@ -16,7 +16,6 @@ public class CoverageBO extends CommonsFieldsBO {
 	private String periodoEvento;
     private String porcentajeSeleccionado;
     private String tipoCobertura;
-
     private String indSeleccionar;
 
 
@@ -28,8 +27,8 @@ public class CoverageBO extends CommonsFieldsBO {
     public void setIdCobertura(Integer idCobertura) {this.idCobertura = idCobertura;}
     public String getDescripcionCobertura() {return descripcionCobertura;}
     public void setDescripcionCobertura(String descripcionCobertura) {this.descripcionCobertura = descripcionCobertura;}
-    public String getPrincipal() {return principal;}
-    public void setPrincipal(String principal) {this.principal = principal;}
+    public String getPrincipal() { return principal; }
+    public void setPrincipal(String principal) { this.principal = principal; }
     public String getObservacionCobertura() {return observacionCobertura;}
     public void setObservacionCobertura(String observacionCobertura) {this.observacionCobertura = observacionCobertura;}
     public String getPeriodoEvento() {return periodoEvento;}
