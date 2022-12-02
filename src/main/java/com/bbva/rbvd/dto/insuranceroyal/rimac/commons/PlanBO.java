@@ -17,7 +17,9 @@ public class PlanBO extends CommonsFieldsBO{
     private Integer plan;
     private List<ClausesBO> clausulas;
     private String indicadorRecomendado;
-    @JsonIgnore
+
+    private String indPlanRecomendado;
+
     private List<Exclusion> exclusiones;
 
     private List<ConsiderationsBO> consideraciones;
@@ -42,7 +44,8 @@ public class PlanBO extends CommonsFieldsBO{
     public void setPlan(Integer plan) { this.plan = plan; }
     public String getIndicadorRecomendado() {return indicadorRecomendado;}
     public void setIndicadorRecomendado(String indicadorRecomendado) {this.indicadorRecomendado = indicadorRecomendado;}
-
+    public String getIndPlanRecomendado() { return indPlanRecomendado; }
+    public void setIndPlanRecomendado(String indPlanRecomendado) { this.indPlanRecomendado = indPlanRecomendado; }
     public List<ConsiderationsBO> getConsideraciones() { return consideraciones; }
     public void setConsideraciones(List<ConsiderationsBO> consideraciones) { this.consideraciones = consideraciones; }
 }
