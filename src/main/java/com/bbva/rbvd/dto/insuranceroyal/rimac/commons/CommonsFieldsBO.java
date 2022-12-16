@@ -13,9 +13,7 @@ public class CommonsFieldsBO {
     private BigDecimal primaBruta;
     private String periodicidad;
 	private List<CoverageBO> coberturas;
-    private List<Exclusion> exclusiones;
-    private List<ConsiderationsBO> consideraciones;
-    private List<DeductibleBO> deducibles;
+
     private BigDecimal sumaAsegurada;
     private String status;
     private String mensaje;
@@ -80,12 +78,6 @@ public class CommonsFieldsBO {
     public void setNumeroDocumento(String numeroDocumento) {this.numeroDocumento = numeroDocumento;}
     public String getFechaInicio() {return fechaInicio;}
     public void setFechaInicio(String fechaInicio) {this.fechaInicio = fechaInicio;}
-    public List<Exclusion> getExclusiones() {return exclusiones;}
-    public void setExclusiones(List<Exclusion> exclusiones) {this.exclusiones = exclusiones;}
-    public List<ConsiderationsBO> getConsideraciones() {return consideraciones;}
-    public void setConsideraciones(List<ConsiderationsBO> consideraciones) {this.consideraciones = consideraciones;}
-    public List<DeductibleBO> getDeducibles() {return deducibles;}
-    public void setDeducibles(List<DeductibleBO> deducibles) {this.deducibles = deducibles;}
     
     public String getIndSeleccionado() {
         return indSeleccionado;
