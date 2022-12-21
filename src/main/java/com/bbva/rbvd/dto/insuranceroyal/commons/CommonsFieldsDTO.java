@@ -22,6 +22,9 @@ public class CommonsFieldsDTO extends AbstractDTO {
     private Double bankingFactor;
     private boolean isPrincipal;
     private Long validityDays;
+    private String aap;
+    
+    
 
     public String getId() {return id;}
     public void setId(String id) {this.id = id;}
@@ -57,4 +60,11 @@ public class CommonsFieldsDTO extends AbstractDTO {
 
     public Long getValidityDays() { return validityDays; }
     public void setValidityDays(Long validityDays) { this.validityDays = validityDays; }
+	
+    public String getAap() {
+		return aap;
+	}
+	public void setAap(String aap) {
+		this.aap = aap;
+	}
 }

@@ -30,6 +30,11 @@ public class DummyData {
 		return this.objectMapperHelper.readValue(Thread.currentThread().getContextClassLoader().
 				getResourceAsStream("com/bbva/rbvd/dto/insuranceroyal/mock/pt/quotation/quotationBBVARequest.json"), PTInsuranceQuotationDTO.class);
 	}
+	
+	public PTInsuranceQuotationDTO getInsuranceQuotationPtBBVAResponse() throws IOException {
+		return this.objectMapperHelper.readValue(Thread.currentThread().getContextClassLoader().
+				getResourceAsStream("com/bbva/rbvd/dto/insuranceroyal/mock/pt/quotation/quotationBBVAResponse.json"), PTInsuranceQuotationDTO.class);
+	}
 
 	public SearchInsuranceBO getInsuranceSearchBoRimacServiceResponse() throws IOException {
 		return this.objectMapperHelper.readValue(Thread.currentThread().getContextClassLoader().

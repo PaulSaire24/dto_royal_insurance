@@ -1,0 +1,108 @@
+{
+  "validityPeriod": {
+    "unit": "MONTHLY",
+    "value": 12
+  },
+  "product": {
+    "name": "SEGURO PROTECCION DE TARJETAS BBVA",
+    "id": "834",
+    "plan": {
+      "installmentPlans": [
+        {
+          "period": {
+            "id": "MONTHLY"
+          },
+          "paymentsTotalNumber": 12,
+          "paymentAmount": {
+            "amount": 25,
+            "currency": "PEN"
+          }
+        }
+      ],
+      "name": "PLAN PREMIUM",
+      "description": "PROTECCIÓN DE TARJETA BBVA ANUAL - TITULAR SOLES PLAN PREMIUM",
+      "exclusions": [
+        {
+          "id": ""
+        }
+      ],
+      "id": "12",
+      "conditions": [
+        {
+          "id": ""
+        }
+      ],
+      "coverages": [
+        {
+          "name": "COB",
+          "description": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
+          "id": "12177",
+          "isPrincipal": true
+        },
+        {
+          "name": "COB",
+          "description": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
+          "id": "12177",
+          "isPrincipal": true
+        },
+        {
+          "name": "COB",
+          "description": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
+          "id": "12177",
+          "isPrincipal": true
+        },
+        {
+          "name": "COB",
+          "description": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
+          "id": "12177",
+          "isPrincipal": true
+        },
+        {
+          "name": "COB",
+          "description": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
+          "id": "12177",
+          "isPrincipal": true
+        },
+        {
+          "name": "COB",
+          "description": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
+          "id": "12177",
+          "isPrincipal": true
+        },
+        {
+          "name": "COB",
+          "description": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
+          "id": "12177",
+          "isPrincipal": true
+        }
+      ],
+      "totalInstallment": {
+        "amount": 300.02,
+        "currency": "PEN"
+      }
+    }
+  },
+  "bank": {
+    "id": "0011",
+    "branch": {
+      "id": "0486"
+    }
+  },
+  "maturityDate": "2023-01-14",
+  "externalQuotationId": "dc3880a9-da98-4906-835e-e90f63fb0296",
+  "customerId": "97171890",
+  "holder": {
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "04040005"
+    }
+  },
+  "id": "0814000019466",
+  "insuranceCompany": {
+    "name": "RIMAC SEGUROS Y REASEGUROS",
+    "id": "01"
+  },
+  "quotationDate": "2022-12-15T23:03:28.517Z"
+}
