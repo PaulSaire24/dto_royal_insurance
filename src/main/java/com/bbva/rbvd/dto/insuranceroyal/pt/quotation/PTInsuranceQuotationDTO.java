@@ -1,5 +1,7 @@
 package com.bbva.rbvd.dto.insuranceroyal.pt.quotation;
 
+import java.util.Date;
+
 import org.joda.time.LocalDate;
 
 import com.bbva.rbvd.dto.insuranceroyal.commons.BankDTO;
@@ -10,7 +12,7 @@ import com.bbva.rbvd.dto.insuranceroyal.commons.ProductDTO;
 public class PTInsuranceQuotationDTO extends CommonsFieldsDTO {
 
     private HolderDTO holder;
-    private LocalDate quotationDate;
+    private Date quotationDate;
     private ValidityPeriodDTO validityPeriod;
     private ProductDTO product;
     private String externalQuotationId;
@@ -19,8 +21,8 @@ public class PTInsuranceQuotationDTO extends CommonsFieldsDTO {
 
     public HolderDTO getHolder() {return holder;}
     public void setHolder(HolderDTO holder) {this.holder = holder;}
-    public LocalDate getQuotationDate() { return quotationDate; }
-    public void setQuotationDate(LocalDate quotationDate) { this.quotationDate = quotationDate; }
+    public Date getQuotationDate() { return quotationDate; }
+    public void setQuotationDate(Date quotationDate) { this.quotationDate = quotationDate; }
     public ValidityPeriodDTO getValidityPeriod() {return validityPeriod;}
     public void setValidityPeriod(ValidityPeriodDTO validityPeriod) {this.validityPeriod = validityPeriod;}
     public ProductDTO getProduct() {return product;}
@@ -32,6 +34,8 @@ public class PTInsuranceQuotationDTO extends CommonsFieldsDTO {
     public BankDTO getBank() {return bank;}
     public void setBank(BankDTO bank) {this.bank = bank;}
 
+    
+    
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("PTInsuranceQuotationDTO{");
