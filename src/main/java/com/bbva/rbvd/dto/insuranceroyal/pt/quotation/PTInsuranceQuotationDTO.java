@@ -34,6 +34,8 @@ public class PTInsuranceQuotationDTO extends CommonsFieldsDTO {
     public BankDTO getBank() {return bank;}
     public void setBank(BankDTO bank) {this.bank = bank;}
 
+    
+    
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("PTInsuranceQuotationDTO{");
