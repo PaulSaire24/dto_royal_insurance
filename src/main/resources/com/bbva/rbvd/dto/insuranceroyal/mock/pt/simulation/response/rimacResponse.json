@@ -2,95 +2,111 @@
   "payload": {
     "cotizaciones": [
       {
-        "idCotizacion": "02cf5bbd-77c1-4021-8032-23232a62c96e",
+        "idCotizacion": "b04ab811-b531-4d37-9d53-de6d0647dd5e",
         "diasVigencia": "30",
-        "fechaFinVigencia": "2022-12-23",
+        "fechaFinVigencia": "2023-02-11",
+        "idPlan": 533531,
         "plan": {
-          "idPlan": 533364,
-          "descripcionPlan": "PROTECCIÓN DE TARJETA BBVA ANUAL  (01.08.2019) SOLES BASICO",
+          "idPlan": 533531,
+          "descripcionPlan": "PLAN PLUS (SOLO TITULAR)",
           "moneda": "PEN",
-          "primaNeta": 118.48,
-          "primaBruta": 144,
-          "indicadorInspeccion": "N",
+          "primaNeta": 176.73,
+          "primaBruta": 214.8,
           "financiamientos": [
             {
-              "idFinanciamiento": "e73609a8-0370-4574-a1e4-d7a28b3e9fcb",
+              "idFinanciamiento": "06b7c33e-10cf-47f9-8159-b92334e9baec",
               "periodicidad": "Mensual",
               "numeroCuotas": 12,
               "indicadorDescuentoPrima": "N",
-              "fechaInicio": "2022-11-24",
-              "fechaFinal": "2023-11-24",
+              "fechaInicio": "2023-01-13",
+              "fechaFinal": "2024-01-13",
               "cuotasFinanciamiento": [
                 {
                   "cuota": 1,
-                  "monto": 12,
-                  "fechaVencimiento": "2022-11-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-01-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 2,
-                  "monto": 12,
-                  "fechaVencimiento": "2022-12-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-02-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 3,
-                  "monto": 12,
-                  "fechaVencimiento": "2023-01-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-03-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 4,
-                  "monto": 12,
-                  "fechaVencimiento": "2023-02-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-04-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 5,
-                  "monto": 12,
-                  "fechaVencimiento": "2023-03-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-05-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 6,
-                  "monto": 12,
-                  "fechaVencimiento": "2023-04-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-06-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 7,
-                  "monto": 12,
-                  "fechaVencimiento": "2023-05-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-07-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 8,
-                  "monto": 12,
-                  "fechaVencimiento": "2023-06-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-08-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 9,
-                  "monto": 12,
-                  "fechaVencimiento": "2023-07-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-09-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 10,
-                  "monto": 12,
-                  "fechaVencimiento": "2023-08-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-10-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 11,
-                  "monto": 12,
-                  "fechaVencimiento": "2023-09-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-11-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 12,
-                  "monto": 12,
-                  "fechaVencimiento": "2023-10-24",
+                  "monto": 17.9,
+                  "fechaVencimiento": "2023-12-13",
+                  "moneda": "PEN"
+                }
+              ]
+            },
+            {
+              "idFinanciamiento": "484af218-c20d-4c41-8425-a62502c90910",
+              "periodicidad": "Anual",
+              "numeroCuotas": 1,
+              "indicadorDescuentoPrima": "S",
+              "fechaInicio": "2023-01-13",
+              "fechaFinal": "2024-01-13",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 179.89,
+                  "fechaVencimiento": "2023-02-13",
                   "moneda": "PEN"
                 }
               ]
@@ -99,186 +115,183 @@
           "servicios": [],
           "coberturas": [
             {
-              "idCobertura": 11160,
-              "descripcionCobertura": "USO INDEBIDO DE TARJETA",
-              "primaBruta": 53.22,
-              "primaNeta": 43.79,
+              "idCobertura": 116058,
+              "descripcionCobertura": "COMPRAS PRESENCIALES O REALIZADAS POR INTERNET NO RECONOCIDAS - TARJETAS BBVA",
+              "primaBruta": 53.71,
+              "primaNeta": 44.19,
               "moneda": "PEN",
-              "sumaAsegurada": 10000,
+              "sumaAsegurada": 5000,
               "principal": "S",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "condicion": "OBL"
             },
             {
-              "idCobertura": 11175,
-              "descripcionCobertura": "FRAUDE, CLONACIÓN A ADULTERACIÓN",
-              "primaBruta": 18.12,
-              "primaNeta": 14.91,
+              "idCobertura": 116059,
+              "descripcionCobertura": "ROBO O HURTO DE DINERO RETIRADO EN CAJEROS (ATM) DEL BBVA",
+              "primaBruta": 53.7,
+              "primaNeta": 44.18,
               "moneda": "PEN",
-              "sumaAsegurada": 10000,
+              "sumaAsegurada": 2000,
               "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "condicion": "OBL"
             },
             {
-              "idCobertura": 12125,
-              "descripcionCobertura": "ROBO DE DINERO EXTRAIDO DEL CAJERO",
-              "primaBruta": 18.12,
-              "primaNeta": 14.91,
+              "idCobertura": 116060,
+              "descripcionCobertura": "ROBO O HURTO ELECTRÓNICO",
+              "primaBruta": 53.7,
+              "primaNeta": 44.18,
               "moneda": "PEN",
-              "sumaAsegurada": 1000,
+              "sumaAsegurada": 4000,
               "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "condicion": "OBL"
             },
             {
-              "idCobertura": 12126,
-              "descripcionCobertura": "MUERTE ACCIDENTAL ASEGURADO",
-              "primaBruta": 18.12,
-              "primaNeta": 14.91,
+              "idCobertura": 116063,
+              "descripcionCobertura": "COMPRAS PRESENCIALES NO RENOCONOCIDAS POR EL ASEGURADO - TARJETAS OTROS BANCOS",
+              "primaBruta": 53.7,
+              "primaNeta": 44.18,
               "moneda": "PEN",
-              "sumaAsegurada": 10000,
+              "sumaAsegurada": 3000,
               "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 11176,
-              "descripcionCobertura": "REEMBOLSO POR GASTOS POR HOSPITALIZACIÓN",
-              "primaBruta": 18.12,
-              "primaNeta": 14.91,
-              "moneda": "PEN",
-              "sumaAsegurada": 4500,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 11169,
-              "descripcionCobertura": "REEMBOLSO POR TRAMITE DE DOCUMENTO",
-              "primaBruta": 9.16,
-              "primaNeta": 7.54,
-              "moneda": "PEN",
-              "sumaAsegurada": 250,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 12177,
-              "descripcionCobertura": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
-              "primaBruta": 9.13,
-              "primaNeta": 7.51,
-              "moneda": "PEN",
-              "sumaAsegurada": 450,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "condicion": "OBL"
             }
           ],
           "deducibles": [],
-          "indPlanRecomendado": "N"
-        },
-        "fechaInicioVigencia": "2022-11-24",
-        "vigenciaPoliza": "1 año"
+          "consideraciones": [
+            {
+              "descripcionConsideracion": "Todas estas coberturas son válidas dentro de los últimos 45 días antes del bloqueo de la tarjeta, como consecuencia del robo o hurto. En cuanto al retiro en cajero, cubre hasta 30 minutos después de efectuado el primer retiro.",
+              "idConsideracion": 1
+            },
+            {
+              "descripcionConsideracion": "Todas las coberturas son válidas para un máximo de 2 eventos por año, a excepción de las transferencias bancarias no reconocidas, las operaciones no reconocidas en el extranjero y el robo o hurto electrónico. En estos casos la cobertura aplica para 1 evento al año.",
+              "idConsideracion": 2
+            }
+          ],
+          "exclusiones": [
+            {
+              "idExclusion": 1,
+              "descripcionExclusion": "El seguro no cubre los intereses y penalidades que puedan originarse por el retraso en el pago de las tarjetas."
+            },
+            {
+              "idExclusion": 2,
+              "descripcionExclusion": "Tampoco es válido para tarjetas de alguna entidad que no sea regulada por la Superintendencia de Banca, Seguros y AFP del Perú (SBS)."
+            },
+            {
+              "idExclusion": 3,
+              "descripcionExclusion": "No incluye pérdidas en las que legalmente puedas cobrar un reembolso de otra institución."
+            },
+            {
+              "idExclusion": 4,
+              "descripcionExclusion": "No incluye en caso el siniestro se dé mientras estés bajo la influencia de cualquier narcótico, droga o hayas ingerido alcohol de manera voluntaria."
+            }
+          ]
+        }
       },
       {
-        "idCotizacion": "02cf5bbd-77c1-4021-8032-23232a62c96e",
+        "idCotizacion": "b04ab811-b531-4d37-9d53-de6d0647dd5e",
         "diasVigencia": "30",
-        "fechaFinVigencia": "2022-12-23",
+        "fechaFinVigencia": "2023-02-11",
+        "idPlan": 533532,
         "plan": {
-          "idPlan": 533365,
-          "descripcionPlan": "PROTECCIÓN DE TARJETA BBVA ANUAL  (01.08.2019) SOLES BASICO",
+          "idPlan": 533532,
+          "descripcionPlan": "PLAN PREMIUM (SOLO TITULAR)",
           "moneda": "PEN",
-          "primaNeta": 157.97,
-          "primaBruta": 192,
-          "indicadorInspeccion": "N",
+          "primaNeta": 249.79,
+          "primaBruta": 303.59,
           "financiamientos": [
             {
-              "idFinanciamiento": "ec96447f-eee9-44c7-970c-903d20b7659a",
+              "idFinanciamiento": "fd32451e-84a2-463f-ae99-98bf524378ab",
               "periodicidad": "Mensual",
               "numeroCuotas": 12,
               "indicadorDescuentoPrima": "N",
-              "fechaInicio": "2022-11-24",
-              "fechaFinal": "2023-11-24",
+              "fechaInicio": "2023-01-13",
+              "fechaFinal": "2024-01-13",
               "cuotasFinanciamiento": [
                 {
                   "cuota": 1,
-                  "monto": 16,
-                  "fechaVencimiento": "2022-11-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-01-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 2,
-                  "monto": 16,
-                  "fechaVencimiento": "2022-12-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-02-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 3,
-                  "monto": 16,
-                  "fechaVencimiento": "2023-01-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-03-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 4,
-                  "monto": 16,
-                  "fechaVencimiento": "2023-02-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-04-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 5,
-                  "monto": 16,
-                  "fechaVencimiento": "2023-03-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-05-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 6,
-                  "monto": 16,
-                  "fechaVencimiento": "2023-04-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-06-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 7,
-                  "monto": 16,
-                  "fechaVencimiento": "2023-05-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-07-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 8,
-                  "monto": 16,
-                  "fechaVencimiento": "2023-06-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-08-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 9,
-                  "monto": 16,
-                  "fechaVencimiento": "2023-07-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-09-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 10,
-                  "monto": 16,
-                  "fechaVencimiento": "2023-08-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-10-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 11,
-                  "monto": 16,
-                  "fechaVencimiento": "2023-09-24",
+                  "monto": 25.3,
+                  "fechaVencimiento": "2023-11-13",
                   "moneda": "PEN"
                 },
                 {
                   "cuota": 12,
-                  "monto": 16,
-                  "fechaVencimiento": "2023-10-24",
+                  "monto": 25.29,
+                  "fechaVencimiento": "2023-12-13",
+                  "moneda": "PEN"
+                }
+              ]
+            },
+            {
+              "idFinanciamiento": "d73ba225-7950-4268-bf56-1b8e4246b060",
+              "periodicidad": "Anual",
+              "numeroCuotas": 1,
+              "indicadorDescuentoPrima": "S",
+              "fechaInicio": "2023-01-13",
+              "fechaFinal": "2024-01-13",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 252.98,
+                  "fechaVencimiento": "2023-02-13",
                   "moneda": "PEN"
                 }
               ]
@@ -287,491 +300,110 @@
           "servicios": [],
           "coberturas": [
             {
-              "idCobertura": 11160,
-              "descripcionCobertura": "USO INDEBIDO DE TARJETA",
-              "primaBruta": 70.99,
-              "primaNeta": 58.41,
+              "idCobertura": 116058,
+              "descripcionCobertura": "COMPRAS PRESENCIALES O REALIZADAS POR INTERNET NO RECONOCIDAS - TARJETAS BBVA",
+              "primaBruta": 50.61,
+              "primaNeta": 41.64,
               "moneda": "PEN",
-              "sumaAsegurada": 10000,
+              "sumaAsegurada": 15000,
               "principal": "S",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "condicion": "OBL"
             },
             {
-              "idCobertura": 11175,
-              "descripcionCobertura": "FRAUDE, CLONACIÓN A ADULTERACIÓN",
-              "primaBruta": 24.16,
-              "primaNeta": 19.88,
+              "idCobertura": 116059,
+              "descripcionCobertura": "ROBO O HURTO DE DINERO RETIRADO EN CAJEROS (ATM) DEL BBVA",
+              "primaBruta": 50.6,
+              "primaNeta": 41.63,
               "moneda": "PEN",
-              "sumaAsegurada": 10000,
+              "sumaAsegurada": 4000,
               "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "condicion": "OBL"
             },
             {
-              "idCobertura": 12125,
-              "descripcionCobertura": "ROBO DE DINERO EXTRAIDO DEL CAJERO",
-              "primaBruta": 24.16,
-              "primaNeta": 19.88,
+              "idCobertura": 116060,
+              "descripcionCobertura": "ROBO O HURTO ELECTRÓNICO",
+              "primaBruta": 50.6,
+              "primaNeta": 41.63,
               "moneda": "PEN",
-              "sumaAsegurada": 1000,
+              "sumaAsegurada": 7000,
               "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "condicion": "OBL"
             },
             {
-              "idCobertura": 12126,
-              "descripcionCobertura": "MUERTE ACCIDENTAL ASEGURADO",
-              "primaBruta": 24.16,
-              "primaNeta": 19.88,
+              "idCobertura": 116063,
+              "descripcionCobertura": "COMPRAS PRESENCIALES NO RENOCONOCIDAS POR EL ASEGURADO - TARJETAS OTROS BANCOS",
+              "primaBruta": 50.6,
+              "primaNeta": 41.63,
               "moneda": "PEN",
-              "sumaAsegurada": 10000,
+              "sumaAsegurada": 8000,
               "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "condicion": "OBL"
             },
             {
-              "idCobertura": 11176,
-              "descripcionCobertura": "REEMBOLSO POR GASTOS POR HOSPITALIZACIÓN",
-              "primaBruta": 24.16,
-              "primaNeta": 19.88,
+              "idCobertura": 116061,
+              "descripcionCobertura": "OPERACIONES NO RECONOCIDAS REALIZADAS POR LAS TARJETAS DE CRÉDITO Y/O DÉBITO BBVA EN EL EXTRANJERO",
+              "primaBruta": 50.6,
+              "primaNeta": 41.63,
               "moneda": "PEN",
-              "sumaAsegurada": 4500,
+              "sumaAsegurada": 3000,
               "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "condicion": "OBL"
             },
             {
-              "idCobertura": 11169,
-              "descripcionCobertura": "REEMBOLSO POR TRAMITE DE DOCUMENTO",
-              "primaBruta": 12.18,
-              "primaNeta": 10.02,
+              "idCobertura": 116062,
+              "descripcionCobertura": "TRANSFERENCIAS BANCARIAS NO RECONOCIDAS POR EL ASEGURADO",
+              "primaBruta": 50.6,
+              "primaNeta": 41.63,
               "moneda": "PEN",
-              "sumaAsegurada": 250,
+              "sumaAsegurada": 3000,
               "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 12177,
-              "descripcionCobertura": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
-              "primaBruta": 12.18,
-              "primaNeta": 10.02,
-              "moneda": "PEN",
-              "sumaAsegurada": 450,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "condicion": "OBL"
             }
           ],
           "deducibles": [],
-          "indPlanRecomendado": "N"
-        },
-        "fechaInicioVigencia": "2022-11-24",
-        "vigenciaPoliza": "1 año"
-      },
-      {
-        "idCotizacion": "02cf5bbd-77c1-4021-8032-23232a62c96e",
-        "diasVigencia": "30",
-        "fechaFinVigencia": "2022-12-23",
-        "plan": {
-          "idPlan": 533325,
-          "descripcionPlan": "PROTECCIÓN DE TARJETA BBVA ANUAL  (01.08.2019) SOLES BASICO",
-          "moneda": "PEN",
-          "primaNeta": 187.59,
-          "primaBruta": 228,
-          "indicadorInspeccion": "N",
-          "financiamientos": [
+          "consideraciones": [
             {
-              "idFinanciamiento": "c9e41ba5-ad95-4d94-9f17-bf5aeda39519",
-              "periodicidad": "Mensual",
-              "numeroCuotas": 12,
-              "indicadorDescuentoPrima": "N",
-              "fechaInicio": "2022-11-24",
-              "fechaFinal": "2023-11-24",
-              "cuotasFinanciamiento": [
-                {
-                  "cuota": 1,
-                  "monto": 19,
-                  "fechaVencimiento": "2022-11-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 2,
-                  "monto": 19,
-                  "fechaVencimiento": "2022-12-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 3,
-                  "monto": 19,
-                  "fechaVencimiento": "2023-01-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 4,
-                  "monto": 19,
-                  "fechaVencimiento": "2023-02-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 5,
-                  "monto": 19,
-                  "fechaVencimiento": "2023-03-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 6,
-                  "monto": 19,
-                  "fechaVencimiento": "2023-04-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 7,
-                  "monto": 19,
-                  "fechaVencimiento": "2023-05-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 8,
-                  "monto": 19,
-                  "fechaVencimiento": "2023-06-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 9,
-                  "monto": 19,
-                  "fechaVencimiento": "2023-07-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 10,
-                  "monto": 19,
-                  "fechaVencimiento": "2023-08-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 11,
-                  "monto": 19,
-                  "fechaVencimiento": "2023-09-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 12,
-                  "monto": 19,
-                  "fechaVencimiento": "2023-10-24",
-                  "moneda": "PEN"
-                }
-              ]
+              "descripcionConsideracion": "Todas estas coberturas son válidas dentro de los últimos 45 días antes del bloqueo de la tarjeta, como consecuencia del robo o hurto. En cuanto al retiro en cajero, cubre hasta 30 minutos después de efectuado el primer retiro.",
+              "idConsideracion": 1
+            },
+            {
+              "descripcionConsideracion": "Todas las coberturas son válidas para un máximo de 2 eventos por año, a excepción de las transferencias bancarias no reconocidas, las operaciones no reconocidas en el extranjero y el robo o hurto electrónico. En estos casos la cobertura aplica para 1 evento al año.",
+              "idConsideracion": 2
             }
           ],
-          "servicios": [],
-          "coberturas": [
+          "exclusiones": [
             {
-              "idCobertura": 11160,
-              "descripcionCobertura": "USO INDEBIDO DE TARJETA",
-              "primaBruta": 84.28,
-              "primaNeta": 69.34,
-              "moneda": "PEN",
-              "sumaAsegurada": 10000,
-              "principal": "S",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "idExclusion": 1,
+              "descripcionExclusion": "El seguro no cubre los intereses y penalidades que puedan originarse por el retraso en el pago de las tarjetas."
             },
             {
-              "idCobertura": 11175,
-              "descripcionCobertura": "FRAUDE, CLONACIÓN A ADULTERACIÓN",
-              "primaBruta": 28.7,
-              "primaNeta": 23.61,
-              "moneda": "PEN",
-              "sumaAsegurada": 10000,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "idExclusion": 2,
+              "descripcionExclusion": "Tampoco es válido para tarjetas de alguna entidad que no sea regulada por la Superintendencia de Banca, Seguros y AFP del Perú (SBS)."
             },
             {
-              "idCobertura": 12125,
-              "descripcionCobertura": "ROBO DE DINERO EXTRAIDO DEL CAJERO",
-              "primaBruta": 28.7,
-              "primaNeta": 23.61,
-              "moneda": "PEN",
-              "sumaAsegurada": 1000,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "idExclusion": 3,
+              "descripcionExclusion": "No incluye pérdidas en las que legalmente puedas cobrar un reembolso de otra institución."
             },
             {
-              "idCobertura": 12126,
-              "descripcionCobertura": "MUERTE ACCIDENTAL ASEGURADO",
-              "primaBruta": 28.7,
-              "primaNeta": 23.61,
-              "moneda": "PEN",
-              "sumaAsegurada": 10000,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 11176,
-              "descripcionCobertura": "REEMBOLSO POR GASTOS POR HOSPITALIZACIÓN",
-              "primaBruta": 28.7,
-              "primaNeta": 23.61,
-              "moneda": "PEN",
-              "sumaAsegurada": 4500,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 11169,
-              "descripcionCobertura": "REEMBOLSO POR TRAMITE DE DOCUMENTO",
-              "primaBruta": 14.46,
-              "primaNeta": 11.9,
-              "moneda": "PEN",
-              "sumaAsegurada": 250,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 12177,
-              "descripcionCobertura": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
-              "primaBruta": 14.48,
-              "primaNeta": 11.91,
-              "moneda": "PEN",
-              "sumaAsegurada": 450,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
+              "idExclusion": 4,
+              "descripcionExclusion": "No incluye en caso el siniestro se dé mientras estés bajo la influencia de cualquier narcótico, droga o hayas ingerido alcohol de manera voluntaria."
             }
-          ],
-          "deducibles": [],
-          "indPlanRecomendado": "N"
-        },
-        "fechaInicioVigencia": "2022-11-24",
-        "vigenciaPoliza": "1 año"
-      },
-      {
-        "idCotizacion": "02cf5bbd-77c1-4021-8032-23232a62c96e",
-        "diasVigencia": "30",
-        "fechaFinVigencia": "2022-12-23",
-        "plan": {
-          "idPlan": 533333,
-          "descripcionPlan": "PROTECCIÓN DE TARJETA BBVA ANUAL  (01.12.2019) SOLES PREMIUM",
-          "moneda": "PEN",
-          "primaNeta": 246.84,
-          "primaBruta": 300.02,
-          "indicadorInspeccion": "N",
-          "financiamientos": [
-            {
-              "idFinanciamiento": "ab5ffdfb-806f-44cb-9a14-00ca094bc16b",
-              "periodicidad": "Mensual",
-              "numeroCuotas": 12,
-              "indicadorDescuentoPrima": "N",
-              "fechaInicio": "2022-11-24",
-              "fechaFinal": "2023-11-24",
-              "cuotasFinanciamiento": [
-                {
-                  "cuota": 1,
-                  "monto": 25,
-                  "fechaVencimiento": "2022-11-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 2,
-                  "monto": 25,
-                  "fechaVencimiento": "2022-12-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 3,
-                  "monto": 25,
-                  "fechaVencimiento": "2023-01-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 4,
-                  "monto": 25,
-                  "fechaVencimiento": "2023-02-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 5,
-                  "monto": 25,
-                  "fechaVencimiento": "2023-03-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 6,
-                  "monto": 25,
-                  "fechaVencimiento": "2023-04-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 7,
-                  "monto": 25,
-                  "fechaVencimiento": "2023-05-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 8,
-                  "monto": 25,
-                  "fechaVencimiento": "2023-06-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 9,
-                  "monto": 25,
-                  "fechaVencimiento": "2023-07-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 10,
-                  "monto": 25,
-                  "fechaVencimiento": "2023-08-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 11,
-                  "monto": 25,
-                  "fechaVencimiento": "2023-09-24",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 12,
-                  "monto": 25.02,
-                  "fechaVencimiento": "2023-10-24",
-                  "moneda": "PEN"
-                }
-              ]
-            }
-          ],
-          "servicios": [],
-          "coberturas": [
-            {
-              "idCobertura": 11160,
-              "descripcionCobertura": "USO INDEBIDO DE TARJETA",
-              "primaBruta": 110.89,
-              "primaNeta": 91.24,
-              "moneda": "PEN",
-              "sumaAsegurada": 10000,
-              "principal": "S",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 11175,
-              "descripcionCobertura": "FRAUDE, CLONACIÓN A ADULTERACIÓN",
-              "primaBruta": 37.77,
-              "primaNeta": 31.08,
-              "moneda": "PEN",
-              "sumaAsegurada": 10000,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 12125,
-              "descripcionCobertura": "ROBO DE DINERO EXTRAIDO DEL CAJERO",
-              "primaBruta": 37.76,
-              "primaNeta": 31.07,
-              "moneda": "PEN",
-              "sumaAsegurada": 1000,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 12126,
-              "descripcionCobertura": "MUERTE ACCIDENTAL ASEGURADO",
-              "primaBruta": 37.76,
-              "primaNeta": 31.07,
-              "moneda": "PEN",
-              "sumaAsegurada": 10000,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 11176,
-              "descripcionCobertura": "REEMBOLSO POR GASTOS POR HOSPITALIZACIÓN",
-              "primaBruta": 37.76,
-              "primaNeta": 31.07,
-              "moneda": "PEN",
-              "sumaAsegurada": 4500,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 11169,
-              "descripcionCobertura": "REEMBOLSO POR TRAMITE DE DOCUMENTO",
-              "primaBruta": 19.05,
-              "primaNeta": 15.67,
-              "moneda": "PEN",
-              "sumaAsegurada": 250,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            },
-            {
-              "idCobertura": 12177,
-              "descripcionCobertura": "COBERTURA PATRIMONIAL POR TRANSFERENCIAS DESDE CUENTA CORRIENTE",
-              "primaBruta": 19.01,
-              "primaNeta": 15.64,
-              "moneda": "PEN",
-              "sumaAsegurada": 450,
-              "principal": "N",
-              "condicion": "OBL",
-              "indSeleccionar": "S",
-              "porcentajeSeleccionado": "100%"
-            }
-          ],
-          "deducibles": [],
-          "indPlanRecomendado": "N"
-        },
-        "fechaInicioVigencia": "2022-11-24",
-        "vigenciaPoliza": "1 año"
+          ]
+        }
       }
     ],
     "producto": "PROTECCION_TARJETA",
-    "moneda": "PEN",
     "datosParticulares": [
       {
         "etiqueta": "COMPOSICION_DEL_GRUPO_ASEGURADO",
-        "codigo": "56267",
-        "valor": "TITULAR"
-      },
-      {
-        "etiqueta": "PLAN_ACC",
-        "codigo": "64875",
-        "valor": "1"
+        "valor": "TITULAR",
+        "codigo": ""
       }
     ],
     "financiamiento": [
       {
         "idFinanciamiento": 24287,
-        "fechaInicio": "2022-11-24",
+        "fechaInicio": "2023-01-13",
         "numeroCuotas": 12
       }
     ]
