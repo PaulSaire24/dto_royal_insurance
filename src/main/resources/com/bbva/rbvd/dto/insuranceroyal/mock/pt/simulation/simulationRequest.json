@@ -1,19 +1,15 @@
 {
-  "payload": {
-    "asegurado": {
-      "tipoDocumento": "L",
-      "numeroDocumento": "70456117"
-    },
-    "producto": "PROTECCION_TARJETA",
-    "datosParticulares": [
-      {
-        "etiqueta": "COMPOSICION_DEL_GRUPO_ASEGURADO",
-        "valor": "TITULAR",
-        "codigo": ""
-      }
-    ],
-    "periodosConDescuentoPrima":[
-      1
-    ]
-  }
+  "customerId": "",
+  "holder": {
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "04040005"
+    }
+  },
+  "product": {
+    "id": "834"
+  },
+  "externalSimulationId": ""
 }

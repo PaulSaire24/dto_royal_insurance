@@ -1,411 +1,182 @@
 {
-  "payload": {
-    "cotizaciones": [
-      {
-        "idCotizacion": "b04ab811-b531-4d37-9d53-de6d0647dd5e",
-        "diasVigencia": "30",
-        "fechaFinVigencia": "2023-02-11",
-        "idPlan": 533531,
-        "plan": {
-          "idPlan": 533531,
-          "descripcionPlan": "PLAN PLUS (SOLO TITULAR)",
-          "moneda": "PEN",
-          "primaNeta": 176.73,
-          "primaBruta": 214.8,
-          "financiamientos": [
+    "product": {
+      "plans": [
+        {
+          "installmentPlans": [
             {
-              "idFinanciamiento": "06b7c33e-10cf-47f9-8159-b92334e9baec",
-              "periodicidad": "Mensual",
-              "numeroCuotas": 12,
-              "indicadorDescuentoPrima": "N",
-              "fechaInicio": "2023-01-13",
-              "fechaFinal": "2024-01-13",
-              "cuotasFinanciamiento": [
-                {
-                  "cuota": 1,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-01-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 2,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-02-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 3,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-03-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 4,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-04-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 5,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-05-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 6,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-06-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 7,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-07-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 8,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-08-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 9,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-09-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 10,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-10-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 11,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-11-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 12,
-                  "monto": 17.9,
-                  "fechaVencimiento": "2023-12-13",
-                  "moneda": "PEN"
-                }
-              ]
-            },
-            {
-              "idFinanciamiento": "484af218-c20d-4c41-8425-a62502c90910",
-              "periodicidad": "Anual",
-              "numeroCuotas": 1,
-              "indicadorDescuentoPrima": "S",
-              "fechaInicio": "2023-01-13",
-              "fechaFinal": "2024-01-13",
-              "cuotasFinanciamiento": [
-                {
-                  "cuota": 1,
-                  "monto": 179.89,
-                  "fechaVencimiento": "2023-02-13",
-                  "moneda": "PEN"
-                }
-              ]
+              "period": {
+                "name": "Mensual",
+                "id": "MONTHLY"
+              },
+              "paymentsTotalNumber": 12,
+              "paymentAmount": {
+                "amount": 17.9,
+                "currency": "PEN"
+              }
             }
           ],
-          "servicios": [],
-          "coberturas": [
+          "name": "PLAN PLUS",
+          "isRecommended": false,
+          "exclusions": [
             {
-              "idCobertura": 116058,
-              "descripcionCobertura": "COMPRAS PRESENCIALES O REALIZADAS POR INTERNET NO RECONOCIDAS - TARJETAS BBVA",
-              "primaBruta": 53.71,
-              "primaNeta": 44.19,
-              "moneda": "PEN",
-              "sumaAsegurada": 5000,
-              "principal": "S",
-              "condicion": "OBL"
+              "name": "",
+              "description": "El seguro no cubre los intereses y penalidades que puedan originarse por el retraso en el pago de las tarjetas.",
+              "id": "1"
             },
             {
-              "idCobertura": 116059,
-              "descripcionCobertura": "ROBO O HURTO DE DINERO RETIRADO EN CAJEROS (ATM) DEL BBVA",
-              "primaBruta": 53.7,
-              "primaNeta": 44.18,
-              "moneda": "PEN",
-              "sumaAsegurada": 2000,
-              "principal": "N",
-              "condicion": "OBL"
+              "name": "",
+              "description": "Tampoco es válido para tarjetas de alguna entidad que no sea regulada por la Superintendencia de Banca, Seguros y AFP del Perú (SBS).",
+              "id": "2"
             },
             {
-              "idCobertura": 116060,
-              "descripcionCobertura": "ROBO O HURTO ELECTRÓNICO",
-              "primaBruta": 53.7,
-              "primaNeta": 44.18,
-              "moneda": "PEN",
-              "sumaAsegurada": 4000,
-              "principal": "N",
-              "condicion": "OBL"
+              "name": "",
+              "description": "No incluye pérdidas en las que legalmente puedas cobrar un reembolso de otra institución.",
+              "id": "3"
             },
             {
-              "idCobertura": 116063,
-              "descripcionCobertura": "COMPRAS PRESENCIALES NO RENOCONOCIDAS POR EL ASEGURADO - TARJETAS OTROS BANCOS",
-              "primaBruta": 53.7,
-              "primaNeta": 44.18,
-              "moneda": "PEN",
-              "sumaAsegurada": 3000,
-              "principal": "N",
-              "condicion": "OBL"
+              "name": "",
+              "description": "No incluye en caso el siniestro se dé mientras estés bajo la influencia de cualquier narcótico, droga o hayas ingerido alcohol de manera voluntaria.",
+              "id": "4"
             }
           ],
-          "deducibles": [],
-          "consideraciones": [
+          "id": "11",
+          "conditions": [
             {
-              "descripcionConsideracion": "Todas estas coberturas son válidas dentro de los últimos 45 días antes del bloqueo de la tarjeta, como consecuencia del robo o hurto. En cuanto al retiro en cajero, cubre hasta 30 minutos después de efectuado el primer retiro.",
-              "idConsideracion": 1
+              "name": "",
+              "description": "Todas estas coberturas son válidas dentro de los últimos 45 días antes del bloqueo de la tarjeta, como consecuencia del robo o hurto. En cuanto al retiro en cajero, cubre hasta 30 minutos después de efectuado el primer retiro.",
+              "id": "1"
             },
             {
-              "descripcionConsideracion": "Todas las coberturas son válidas para un máximo de 2 eventos por año, a excepción de las transferencias bancarias no reconocidas, las operaciones no reconocidas en el extranjero y el robo o hurto electrónico. En estos casos la cobertura aplica para 1 evento al año.",
-              "idConsideracion": 2
+              "name": "",
+              "description": "Todas las coberturas son válidas para un máximo de 2 eventos por año, a excepción de las transferencias bancarias no reconocidas, las operaciones no reconocidas en el extranjero y el robo o hurto electrónico. En estos casos la cobertura aplica para 1 evento al año.",
+              "id": "2"
             }
           ],
-          "exclusiones": [
+          "coverages": [
             {
-              "idExclusion": 1,
-              "descripcionExclusion": "El seguro no cubre los intereses y penalidades que puedan originarse por el retraso en el pago de las tarjetas."
+              "name": "COMPRAS PRESENCIALES O REALIZADAS POR INTERNET NO RECONOCIDAS - TARJETAS BBVA",
+              "description": "",
+              "id": "116058",
+              "isPrincipal": true
             },
             {
-              "idExclusion": 2,
-              "descripcionExclusion": "Tampoco es válido para tarjetas de alguna entidad que no sea regulada por la Superintendencia de Banca, Seguros y AFP del Perú (SBS)."
+              "name": "ROBO O HURTO DE DINERO RETIRADO EN CAJEROS (ATM) DEL BBVA",
+              "description": "",
+              "id": "116059",
+              "isPrincipal": false
             },
             {
-              "idExclusion": 3,
-              "descripcionExclusion": "No incluye pérdidas en las que legalmente puedas cobrar un reembolso de otra institución."
+              "name": "ROBO O HURTO ELECTRÓNICO",
+              "description": "",
+              "id": "116060",
+              "isPrincipal": false
             },
             {
-              "idExclusion": 4,
-              "descripcionExclusion": "No incluye en caso el siniestro se dé mientras estés bajo la influencia de cualquier narcótico, droga o hayas ingerido alcohol de manera voluntaria."
+              "name": "COMPRAS PRESENCIALES NO RENOCONOCIDAS POR EL ASEGURADO - TARJETAS OTROS BANCOS",
+              "description": "",
+              "id": "116063",
+              "isPrincipal": false
             }
-          ]
+          ],
+          "totalInstallment": {
+            "amount": 179.89,
+            "currency": "PEN"
+          }
+        },
+        {
+          "installmentPlans": [
+            {
+              "period": {
+                "name": "Mensual",
+                "id": "MONTHLY"
+              },
+              "paymentsTotalNumber": 12,
+              "paymentAmount": {
+                "amount": 25.3,
+                "currency": "PEN"
+              }
+            }
+          ],
+          "name": "PLAN PREMIUM",
+          "isRecommended": true,
+          "exclusions": [
+            {
+              "name": "",
+              "description": "El seguro no cubre los intereses y penalidades que puedan originarse por el retraso en el pago de las tarjetas.",
+              "id": "1"
+            },
+            {
+              "name": "",
+              "description": "Tampoco es válido para tarjetas de alguna entidad que no sea regulada por la Superintendencia de Banca, Seguros y AFP del Perú (SBS).",
+              "id": "2"
+            },
+            {
+              "name": "",
+              "description": "No incluye pérdidas en las que legalmente puedas cobrar un reembolso de otra institución.",
+              "id": "3"
+            },
+            {
+              "name": "",
+              "description": "No incluye en caso el siniestro se dé mientras estés bajo la influencia de cualquier narcótico, droga o hayas ingerido alcohol de manera voluntaria.",
+              "id": "4"
+            }
+          ],
+          "id": "12",
+          "conditions": [
+            {
+              "name": "",
+              "description": "Todas estas coberturas son válidas dentro de los últimos 45 días antes del bloqueo de la tarjeta, como consecuencia del robo o hurto. En cuanto al retiro en cajero, cubre hasta 30 minutos después de efectuado el primer retiro.",
+              "id": "1"
+            },
+            {
+              "name": "",
+              "description": "Todas las coberturas son válidas para un máximo de 2 eventos por año, a excepción de las transferencias bancarias no reconocidas, las operaciones no reconocidas en el extranjero y el robo o hurto electrónico. En estos casos la cobertura aplica para 1 evento al año.",
+              "id": "2"
+            }
+          ],
+          "coverages": [
+            {
+              "name": "COMPRAS PRESENCIALES O REALIZADAS POR INTERNET NO RECONOCIDAS - TARJETAS BBVA",
+              "description": "",
+              "id": "116058",
+              "isPrincipal": true
+            },
+            {
+              "name": "ROBO O HURTO DE DINERO RETIRADO EN CAJEROS (ATM) DEL BBVA",
+              "description": "",
+              "id": "116059",
+              "isPrincipal": false
+            },
+            {
+              "name": "ROBO O HURTO ELECTRÓNICO",
+              "description": "",
+              "id": "116060",
+              "isPrincipal": false
+            },
+            {
+              "name": "COMPRAS PRESENCIALES NO RENOCONOCIDAS POR EL ASEGURADO - TARJETAS OTROS BANCOS",
+              "description": "",
+              "id": "116063",
+              "isPrincipal": false
+            }
+          ],
+          "totalInstallment": {
+            "amount": 252.98,
+            "currency": "PEN"
+          }
         }
-      },
-      {
-        "idCotizacion": "b04ab811-b531-4d37-9d53-de6d0647dd5e",
-        "diasVigencia": "30",
-        "fechaFinVigencia": "2023-02-11",
-        "idPlan": 533532,
-        "plan": {
-          "idPlan": 533532,
-          "descripcionPlan": "PLAN PREMIUM (SOLO TITULAR)",
-          "moneda": "PEN",
-          "primaNeta": 249.79,
-          "primaBruta": 303.59,
-          "financiamientos": [
-            {
-              "idFinanciamiento": "fd32451e-84a2-463f-ae99-98bf524378ab",
-              "periodicidad": "Mensual",
-              "numeroCuotas": 12,
-              "indicadorDescuentoPrima": "N",
-              "fechaInicio": "2023-01-13",
-              "fechaFinal": "2024-01-13",
-              "cuotasFinanciamiento": [
-                {
-                  "cuota": 1,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-01-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 2,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-02-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 3,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-03-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 4,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-04-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 5,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-05-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 6,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-06-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 7,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-07-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 8,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-08-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 9,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-09-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 10,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-10-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 11,
-                  "monto": 25.3,
-                  "fechaVencimiento": "2023-11-13",
-                  "moneda": "PEN"
-                },
-                {
-                  "cuota": 12,
-                  "monto": 25.29,
-                  "fechaVencimiento": "2023-12-13",
-                  "moneda": "PEN"
-                }
-              ]
-            },
-            {
-              "idFinanciamiento": "d73ba225-7950-4268-bf56-1b8e4246b060",
-              "periodicidad": "Anual",
-              "numeroCuotas": 1,
-              "indicadorDescuentoPrima": "S",
-              "fechaInicio": "2023-01-13",
-              "fechaFinal": "2024-01-13",
-              "cuotasFinanciamiento": [
-                {
-                  "cuota": 1,
-                  "monto": 252.98,
-                  "fechaVencimiento": "2023-02-13",
-                  "moneda": "PEN"
-                }
-              ]
-            }
-          ],
-          "servicios": [],
-          "coberturas": [
-            {
-              "idCobertura": 116058,
-              "descripcionCobertura": "COMPRAS PRESENCIALES O REALIZADAS POR INTERNET NO RECONOCIDAS - TARJETAS BBVA",
-              "primaBruta": 50.61,
-              "primaNeta": 41.64,
-              "moneda": "PEN",
-              "sumaAsegurada": 15000,
-              "principal": "S",
-              "condicion": "OBL"
-            },
-            {
-              "idCobertura": 116059,
-              "descripcionCobertura": "ROBO O HURTO DE DINERO RETIRADO EN CAJEROS (ATM) DEL BBVA",
-              "primaBruta": 50.6,
-              "primaNeta": 41.63,
-              "moneda": "PEN",
-              "sumaAsegurada": 4000,
-              "principal": "N",
-              "condicion": "OBL"
-            },
-            {
-              "idCobertura": 116060,
-              "descripcionCobertura": "ROBO O HURTO ELECTRÓNICO",
-              "primaBruta": 50.6,
-              "primaNeta": 41.63,
-              "moneda": "PEN",
-              "sumaAsegurada": 7000,
-              "principal": "N",
-              "condicion": "OBL"
-            },
-            {
-              "idCobertura": 116063,
-              "descripcionCobertura": "COMPRAS PRESENCIALES NO RENOCONOCIDAS POR EL ASEGURADO - TARJETAS OTROS BANCOS",
-              "primaBruta": 50.6,
-              "primaNeta": 41.63,
-              "moneda": "PEN",
-              "sumaAsegurada": 8000,
-              "principal": "N",
-              "condicion": "OBL"
-            },
-            {
-              "idCobertura": 116061,
-              "descripcionCobertura": "OPERACIONES NO RECONOCIDAS REALIZADAS POR LAS TARJETAS DE CRÉDITO Y/O DÉBITO BBVA EN EL EXTRANJERO",
-              "primaBruta": 50.6,
-              "primaNeta": 41.63,
-              "moneda": "PEN",
-              "sumaAsegurada": 3000,
-              "principal": "N",
-              "condicion": "OBL"
-            },
-            {
-              "idCobertura": 116062,
-              "descripcionCobertura": "TRANSFERENCIAS BANCARIAS NO RECONOCIDAS POR EL ASEGURADO",
-              "primaBruta": 50.6,
-              "primaNeta": 41.63,
-              "moneda": "PEN",
-              "sumaAsegurada": 3000,
-              "principal": "N",
-              "condicion": "OBL"
-            }
-          ],
-          "deducibles": [],
-          "consideraciones": [
-            {
-              "descripcionConsideracion": "Todas estas coberturas son válidas dentro de los últimos 45 días antes del bloqueo de la tarjeta, como consecuencia del robo o hurto. En cuanto al retiro en cajero, cubre hasta 30 minutos después de efectuado el primer retiro.",
-              "idConsideracion": 1
-            },
-            {
-              "descripcionConsideracion": "Todas las coberturas son válidas para un máximo de 2 eventos por año, a excepción de las transferencias bancarias no reconocidas, las operaciones no reconocidas en el extranjero y el robo o hurto electrónico. En estos casos la cobertura aplica para 1 evento al año.",
-              "idConsideracion": 2
-            }
-          ],
-          "exclusiones": [
-            {
-              "idExclusion": 1,
-              "descripcionExclusion": "El seguro no cubre los intereses y penalidades que puedan originarse por el retraso en el pago de las tarjetas."
-            },
-            {
-              "idExclusion": 2,
-              "descripcionExclusion": "Tampoco es válido para tarjetas de alguna entidad que no sea regulada por la Superintendencia de Banca, Seguros y AFP del Perú (SBS)."
-            },
-            {
-              "idExclusion": 3,
-              "descripcionExclusion": "No incluye pérdidas en las que legalmente puedas cobrar un reembolso de otra institución."
-            },
-            {
-              "idExclusion": 4,
-              "descripcionExclusion": "No incluye en caso el siniestro se dé mientras estés bajo la influencia de cualquier narcótico, droga o hayas ingerido alcohol de manera voluntaria."
-            }
-          ]
-        }
+      ],
+      "name": "SEGURO PROTECCION DE TARJETAS BBVA",
+      "id": "834"
+    },
+    "externalSimulationId": "7656fbee-57aa-4a40-adc8-6352995f8eec",
+    "customerId": "",
+    "holder": {
+      "identityDocument": {
+        "documentType": {
+          "id": "DNI"
+        },
+        "documentNumber": "04040005"
       }
-    ],
-    "producto": "PROTECCION_TARJETA",
-    "datosParticulares": [
-      {
-        "etiqueta": "COMPOSICION_DEL_GRUPO_ASEGURADO",
-        "valor": "TITULAR",
-        "codigo": ""
-      }
-    ],
-    "financiamiento": [
-      {
-        "idFinanciamiento": 24287,
-        "fechaInicio": "2023-01-13",
-        "numeroCuotas": 12
-      }
-    ]
-  }
+    }
 }
