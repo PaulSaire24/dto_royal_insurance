@@ -61,4 +61,9 @@ public class DummyData {
 				getResourceAsStream("com/bbva/rbvd/dto/insuranceroyal/mock/pt/simulation/response/simulationResponsePT.json"), PTInsuranceSimulationDTO.class);
 	}
 
+	public PTInsuranceSimulationDTO getPTMockRequest() throws IOException {
+		return objectMapperHelper.readValue(Thread.currentThread().getContextClassLoader().
+				getResourceAsStream("com/bbva/rbvd/dto/insuranceroyal/mock/pt/simulation/simulationRequest.json"), PTInsuranceSimulationDTO.class);
+	}
+
 }
