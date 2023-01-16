@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.bbva.rbvd.dto.insuranceroyal</groupId>
 	<artifactId>RBVDC204</artifactId>
-	<version>0.2.1</version>
+	<version>0.2.2</version>
 	<packaging>bundle</packaging>
 	<description>Deployment unit dto_royal_insurance of uuaa rbvd</description>
 	<properties>
