@@ -18,7 +18,9 @@ public enum InsuranceRoyalProperties {
 	URI_QUOTATION_PT_KEY("rimac.quotation.pt.uri"),
 	ID_PLANES_PT("planesPT"),
 	ID_API_PT_INSURANCE_QUOTATION_RIMAC("quotationPT.rimac"),
-	ID_API_CUSTOMER_DOC_INFORMATION("listCustomerDocInformation");
+	ID_API_CUSTOMER_DOC_INFORMATION("listCustomerDocInformation"),
+	QUERY_GET_INSURANCE_QUOTATION("PISD.QUERY_GET_INSURANCE_QUOTATION_ID"),
+	QUERY_DELETE_INSRNC_QUOTATION_MOD("PISD.DELETE_INSRNC_QUOTATION_MOD");
 
 	
 	private final String value;
