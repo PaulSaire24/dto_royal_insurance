@@ -1,15 +1,17 @@
 package com.bbva.rbvd.dto.insuranceroyal.refund;
 
-public class DataDTO {
-    private ParticipantDTO participant;
-    private TermDTO term;
-    private RefundsDTO refunds;
+import java.util.List;
 
-    public ParticipantDTO getParticipant() {
+public class DataDTO {
+    private List<ParticipantDTO> participant;
+    private TermDTO term;
+    private List<RefundsDTO> refunds;
+
+    public List<ParticipantDTO> getParticipant() {
         return participant;
     }
 
-    public void setParticipant(ParticipantDTO participant) {
+    public void setParticipant(List<ParticipantDTO> participant) {
         this.participant = participant;
     }
 
@@ -21,11 +23,11 @@ public class DataDTO {
         this.term = term;
     }
 
-    public RefundsDTO getRefunds() {
+    public List<RefundsDTO> getRefunds() {
         return refunds;
     }
 
-    public void setRefunds(RefundsDTO refunds) {
+    public void setRefunds(List<RefundsDTO> refunds) {
         this.refunds = refunds;
     }
 
@@ -37,5 +39,4 @@ public class DataDTO {
                 ", refunds=" + refunds +
                 '}';
     }
-
 }
