@@ -1,4 +1,4 @@
-package com.bbva.rbvd.dto.insuranceroyal.rimac.pt.refund;
+package com.bbva.rbvd.dto.insuranceroyal.rimac.refund;
 
 public class RefundCalculatedBO {
     private RefundCalculatedPayloadBO payload;

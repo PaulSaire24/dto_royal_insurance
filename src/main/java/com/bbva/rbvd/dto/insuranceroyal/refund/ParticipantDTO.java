@@ -1,30 +1,21 @@
 package com.bbva.rbvd.dto.insuranceroyal.refund;
 
-import com.bbva.rbvd.dto.insuranceroyal.commons.HolderDTO;
+import com.bbva.rbvd.dto.insuranceroyal.commons.IdentityDocumentDTO;
 
-import java.util.List;
+import java.time.LocalDate;
 
-public class ParticipantDTO extends HolderDTO {
-    private String middleName;
-    private String secondLastName;
+public class ParticipantDTO {
+    private String id;
     private ParticipantTypeDTO participantType;
-    private List<ContractDetailsDTO> contactDetails;
-    private String birthDate;
+    private IdentityDocumentDTO identityDocument;
+    private LocalDate birthDate;
 
-    public String getMiddleName() {
-        return middleName;
+    public String getId() {
+        return id;
     }
 
-    public void setMiddleName(String middleName) {
-        this.middleName = middleName;
-    }
-
-    public String getSecondLastName() {
-        return secondLastName;
-    }
-
-    public void setSecondLastName(String secondLastName) {
-        this.secondLastName = secondLastName;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public ParticipantTypeDTO getParticipantType() {
@@ -35,34 +26,29 @@ public class ParticipantDTO extends HolderDTO {
         this.participantType = participantType;
     }
 
-    public List<ContractDetailsDTO> getContactDetails() {
-        return contactDetails;
+    public IdentityDocumentDTO getIdentityDocument() {
+        return identityDocument;
     }
 
-    public void setContactDetails(List<ContractDetailsDTO> contactDetails) {
-        this.contactDetails = contactDetails;
+    public void setIdentityDocument(IdentityDocumentDTO identityDocument) {
+        this.identityDocument = identityDocument;
     }
 
-    public String getBirthDate() {
+    public LocalDate getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(String birthDate) {
+    public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("ParticipantDTO{");
-        sb.append("id='").append(getId()).append('\'');
-        sb.append(", firstName='").append(getFirstName()).append('\'');
-        sb.append(", middleName='").append(middleName).append('\'');
-        sb.append(", lastName='").append(getLastName()).append('\'');
-        sb.append(", secondLastName='").append(secondLastName).append('\'');
-        sb.append(", participantType=").append(participantType);
-        sb.append(", contactDetails=").append(contactDetails);
-        sb.append(", identityDocument='").append(getIdentityDocument()).append('\'');
-        sb.append(", birthDate='").append(birthDate).append('\'');
-        sb.append('}');
-        return sb.toString();
+        return "ParticipantDTO{" +
+                "id='" + id + '\'' +
+                ", participantType=" + participantType +
+                ", identityDocument=" + identityDocument +
+                ", birthDate=" + birthDate +
+                '}';
     }
 }

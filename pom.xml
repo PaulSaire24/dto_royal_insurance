@@ -13,11 +13,21 @@
 	<packaging>bundle</packaging>
 	<description>Deployment unit dto_royal_insurance of uuaa rbvd</description>
 	<properties>
-		<osgi.version.manifest>0.0</osgi.version.manifest>
+		<source.path>/src/main/java/com/bbva/rbvd/dto/insuranceroyal</source.path>
 		<sonar.coverage.exclusions>
-			/src/main/java/com/bbva/rbvd/dto/insuranceroyal/**/**.java
+			${source.path}/aso/**.java,
+			${source.path}/dao/**.java,
+			${source.path}/commons/**.java,
+			${source.path}/pt/quotation/**.java,
+			${source.path}/pt/simulation/**.java,
+			${source.path}/rimac/**.java,
+			${source.path}/mock/**.java,
+			${source.path}/utils/**.java
+			${source.path}/refund/**.java
 		</sonar.coverage.exclusions>
+		<osgi.version.manifest>0.0</osgi.version.manifest>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
