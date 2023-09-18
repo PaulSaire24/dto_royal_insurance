@@ -22,7 +22,7 @@ public enum InsuranceRoyalProperties {
 	QUERY_GET_INSURANCE_QUOTATION("PISD.QUERY_GET_INSURANCE_QUOTATION_ID"),
 	QUERY_DELETE_INSRNC_QUOTATION_MOD("PISD.DELETE_INSRNC_QUOTATION_MOD");
 
-	
+
 	private final String value;
 	
 	public String getValue() { return this.value; }
