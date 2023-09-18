@@ -2,8 +2,6 @@ package com.bbva.rbvd.dto.insuranceroyal.pt.quotation;
 
 import java.util.Date;
 
-import org.joda.time.LocalDate;
-
 import com.bbva.rbvd.dto.insuranceroyal.commons.BankDTO;
 import com.bbva.rbvd.dto.insuranceroyal.commons.CommonsFieldsDTO;
 import com.bbva.rbvd.dto.insuranceroyal.commons.HolderDTO;

@@ -1,14 +1,10 @@
 package com.bbva.rbvd.dto.insuranceroyal.refund;
 
-import com.bbva.rbvd.dto.insuranceroyal.refund.ContactDTO;
-
 import java.io.Serializable;
 
 public class ContractDetailsDTO implements Serializable {
     private static final long serialVersionUID = 1L;
-
     private ContactDTO contact;
-
 
     public ContactDTO getContact() {
         return contact;
