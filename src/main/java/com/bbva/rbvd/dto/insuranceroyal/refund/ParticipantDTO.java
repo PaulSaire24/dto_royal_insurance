@@ -1,10 +1,11 @@
 package com.bbva.rbvd.dto.insuranceroyal.refund;
 
+import com.bbva.apx.dto.AbstractDTO;
 import com.bbva.rbvd.dto.insuranceroyal.commons.IdentityDocumentDTO;
 
 import java.time.LocalDate;
 
-public class ParticipantDTO {
+public class ParticipantDTO extends AbstractDTO {
     private String id;
     private ParticipantTypeDTO participantType;
     private IdentityDocumentDTO identityDocument;

@@ -1,8 +1,10 @@
 package com.bbva.rbvd.dto.insuranceroyal.refund;
 
+import com.bbva.apx.dto.AbstractDTO;
+
 import java.util.List;
 
-public class RefundCalculateDTO {
+public class RefundCalculateDTO extends AbstractDTO {
     private List<ParticipantDTO> participants;
     private TermDTO term;
     private List<RefundsDTO> refunds;

@@ -1,6 +1,8 @@
 package com.bbva.rbvd.dto.insuranceroyal.rimac.refund;
 
-public class RefundCalculatedBO {
+import com.bbva.apx.dto.AbstractDTO;
+
+public class RefundCalculatedBO extends AbstractDTO {
     private RefundCalculatedPayloadBO payload;
 
     public RefundCalculatedPayloadBO getPayload() {
