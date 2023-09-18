@@ -8,9 +8,18 @@ public class RefundCalculateResponseBO extends AbstractDTO {
 
     private List<RefundCalculatedPayloadBO> payload;
 
-    /*
+    public List<RefundCalculatedPayloadBO> getPayload() {
+        return payload;
+    }
 
+    public void setPayload(List<RefundCalculatedPayloadBO> payload) {
+        this.payload = payload;
+    }
 
-     */
-
+    @Override
+    public String toString() {
+        return "RefundCalculateResponseBO{" +
+                "payload=" + payload +
+                '}';
+    }
 }
