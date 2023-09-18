@@ -25,6 +25,9 @@
 			${source.path}/utils/**.java
 		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
+		<sonar.coverage.exclusions>
+			/src/main/java/com.bbva.rbvd.dto.insuranceroyal/**/**.java
+		</sonar.coverage.exclusions>
 	</properties>
 	<dependencies>
 		<dependency>
