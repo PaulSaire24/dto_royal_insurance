@@ -6,18 +6,36 @@ import java.math.BigDecimal;
 
 public class UnitDTO extends CommonsFieldsDTO {
     private String unitType;
+    private String text;
+    private BigDecimal decimal;
     private BigDecimal percentage;
 
     public String getUnitType() {
-        return unitType;
+        return this.unitType;
     }
 
     public void setUnitType(String unitType) {
         this.unitType = unitType;
     }
 
+    public String getText() {
+        return this.text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public BigDecimal getDecimal() {
+        return this.decimal;
+    }
+
+    public void setDecimal(BigDecimal decimal) {
+        this.decimal = decimal;
+    }
+
     public BigDecimal getPercentage() {
-        return percentage;
+        return this.percentage;
     }
 
     public void setPercentage(BigDecimal percentage) {
@@ -28,6 +46,8 @@ public class UnitDTO extends CommonsFieldsDTO {
     public String toString() {
         return "UnitDTO{" +
                 "unitType='" + unitType + '\'' +
+                ", text='" + text + '\'' +
+                ", decimal=" + decimal +
                 ", percentage=" + percentage +
                 '}';
     }

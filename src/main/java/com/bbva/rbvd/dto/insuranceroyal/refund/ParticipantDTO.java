@@ -1,38 +1,47 @@
 package com.bbva.rbvd.dto.insuranceroyal.refund;
 
-import com.bbva.apx.dto.AbstractDTO;
-import com.bbva.rbvd.dto.insuranceroyal.commons.IdentityDocumentDTO;
+import com.bbva.rbvd.dto.insuranceroyal.commons.HolderDTO;
 
 import java.time.LocalDate;
+import java.util.List;
 
-public class ParticipantDTO extends AbstractDTO {
-    private String id;
+public class ParticipantDTO extends  HolderDTO{
+    private String middleName;
+    private String secondLastName;
     private ParticipantTypeDTO participantType;
-    private IdentityDocumentDTO identityDocument;
+    private List<ContractDetailsDTO> contactDetails;
     private LocalDate birthDate;
 
-    public String getId() {
-        return id;
+    public String getMiddleName() {
+        return this.middleName;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
+    }
+
+    public String getSecondLastName() {
+        return this.secondLastName;
+    }
+
+    public void setSecondLastName(String secondLastName) {
+        this.secondLastName = secondLastName;
     }
 
     public ParticipantTypeDTO getParticipantType() {
-        return participantType;
+        return this.participantType;
     }
 
     public void setParticipantType(ParticipantTypeDTO participantType) {
         this.participantType = participantType;
     }
 
-    public IdentityDocumentDTO getIdentityDocument() {
-        return identityDocument;
+    public List<ContractDetailsDTO> getContactDetails() {
+        return this.contactDetails;
     }
 
-    public void setIdentityDocument(IdentityDocumentDTO identityDocument) {
-        this.identityDocument = identityDocument;
+    public void setContactDetails(List<ContractDetailsDTO> contactDetails) {
+        this.contactDetails = contactDetails;
     }
 
     public LocalDate getBirthDate() {
@@ -46,9 +55,10 @@ public class ParticipantDTO extends AbstractDTO {
     @Override
     public String toString() {
         return "ParticipantDTO{" +
-                "id='" + id + '\'' +
+                "middleName='" + middleName + '\'' +
+                ", secondLastName='" + secondLastName + '\'' +
                 ", participantType=" + participantType +
-                ", identityDocument=" + identityDocument +
+                ", contactDetails=" + contactDetails +
                 ", birthDate=" + birthDate +
                 '}';
     }

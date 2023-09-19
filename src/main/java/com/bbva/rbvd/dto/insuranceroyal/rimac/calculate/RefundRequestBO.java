@@ -1,8 +1,6 @@
-package com.bbva.rbvd.dto.insuranceroyal.rimac.refund;
+package com.bbva.rbvd.dto.insuranceroyal.rimac.calculate;
 
-import com.bbva.apx.dto.AbstractDTO;
-
-public class RefundCalculatedBO extends AbstractDTO {
+public class RefundRequestBO {
     private RefundCalculatedPayloadBO payload;
 
     public RefundCalculatedPayloadBO getPayload() {
@@ -15,7 +13,7 @@ public class RefundCalculatedBO extends AbstractDTO {
 
     @Override
     public String toString() {
-        return "RefundCalculatedBO{" +
+        return "RefundRequestBO{" +
                 "payload=" + payload +
                 '}';
     }

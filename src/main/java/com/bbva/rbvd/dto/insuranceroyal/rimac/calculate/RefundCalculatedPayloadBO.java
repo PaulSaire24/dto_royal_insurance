@@ -1,17 +1,17 @@
-package com.bbva.rbvd.dto.insuranceroyal.rimac.refund;
+package com.bbva.rbvd.dto.insuranceroyal.rimac.calculate;
 
-import com.bbva.apx.dto.AbstractDTO;
+
 import com.bbva.rbvd.dto.insuranceroyal.commons.CommonsFieldsDTO;
 
 import java.util.List;
 
-public class RefundCalculatedPayloadBO extends AbstractDTO {
+public class RefundCalculatedPayloadBO extends CommonsFieldsDTO {
     private String tipoDocumento;
     private String nroDocumento;
     private String fechaNacimiento;
     private String producto;
-    private Long plazo;
-    private List<Long> porcentajes;
+    private Integer plazo;
+    private List<Integer> porcentajes;
 
     public String getTipoDocumento() {
         return tipoDocumento;
@@ -45,19 +45,19 @@ public class RefundCalculatedPayloadBO extends AbstractDTO {
         this.producto = producto;
     }
 
-    public Long getPlazo() {
+    public Integer getPlazo() {
         return plazo;
     }
 
-    public void setPlazo(Long plazo) {
+    public void setPlazo(Integer plazo) {
         this.plazo = plazo;
     }
 
-    public List<Long> getPorcentajes() {
+    public List<Integer> getPorcentajes() {
         return porcentajes;
     }
 
-    public void setPorcentajes(List<Long> porcentajes) {
+    public void setPorcentajes(List<Integer> porcentajes) {
         this.porcentajes = porcentajes;
     }
 
