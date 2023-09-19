@@ -1,6 +1,7 @@
 package com.bbva.rbvd.dto.insuranceroyal.refund;
 
 import com.bbva.rbvd.dto.insuranceroyal.commons.HolderDTO;
+import com.bbva.rbvd.dto.insuranceroyal.commons.CommonsFieldsDTO;
 
 import java.util.List;
 

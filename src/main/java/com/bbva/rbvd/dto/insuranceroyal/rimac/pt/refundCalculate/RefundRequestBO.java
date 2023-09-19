@@ -2,20 +2,21 @@ package com.bbva.rbvd.dto.insuranceroyal.rimac.pt.refundCalculate;
 
 import java.util.List;
 
-public class RefundCalculatedBO {
-    private List<RefundCalculatedPayloadBO> payload;
+public class RefundRequestBO {
 
-    public List<RefundCalculatedPayloadBO> getPayload() {
+    private RefundCalculatedPayloadBO payload;
+
+    public RefundCalculatedPayloadBO getPayload() {
         return payload;
     }
 
-    public void setPayload(List<RefundCalculatedPayloadBO> payload) {
+    public void setPayload(RefundCalculatedPayloadBO payload) {
         this.payload = payload;
     }
 
     @Override
     public String toString() {
-        return "RefundCalculatedBO{" +
+        return "RefundRequestBO{" +
                 "payload=" + payload +
                 '}';
     }
