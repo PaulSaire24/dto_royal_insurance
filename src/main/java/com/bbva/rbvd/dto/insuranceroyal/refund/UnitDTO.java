@@ -10,9 +10,6 @@ public class UnitDTO extends CommonsFieldsDTO {
     private BigDecimal decimal;
     private BigDecimal percentage;
 
-    public UnitDTO() {
-    }
-
     public String getUnitType() {
         return this.unitType;
     }

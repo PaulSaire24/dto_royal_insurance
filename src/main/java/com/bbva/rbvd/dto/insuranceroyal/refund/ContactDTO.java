@@ -8,9 +8,6 @@ public class ContactDTO implements Serializable {
     private String number;
     private String address;
 
-    public ContactDTO() {
-    }
-
     public String getContactDetailType() {
         return this.contactDetailType;
     }

@@ -6,9 +6,6 @@ public class ContractDetailsDTO implements Serializable {
     private static final long serialVersionUID = 1L;
     private ContactDTO contact;
 
-    public ContractDetailsDTO() {
-    }
-
     public ContactDTO getContact() {
         return this.contact;
     }
