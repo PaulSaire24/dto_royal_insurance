@@ -1,4 +1,4 @@
-package com.bbva.rbvd.dto.insuranceroyal.rimac.pt.refundCalculate;
+package com.bbva.rbvd.dto.insuranceroyal.rimac.calculate;
 
 
 import com.bbva.rbvd.dto.insuranceroyal.commons.CommonsFieldsDTO;
