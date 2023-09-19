@@ -2,6 +2,7 @@ package com.bbva.rbvd.dto.insuranceroyal.refund;
 
 import com.bbva.rbvd.dto.insuranceroyal.commons.HolderDTO;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public class ParticipantDTO extends  HolderDTO{
@@ -9,7 +10,7 @@ public class ParticipantDTO extends  HolderDTO{
     private String secondLastName;
     private ParticipantTypeDTO participantType;
     private List<ContractDetailsDTO> contactDetails;
-    private String birthDate;
+    private LocalDate birthDate;
 
     public String getMiddleName() {
         return this.middleName;
@@ -43,11 +44,11 @@ public class ParticipantDTO extends  HolderDTO{
         this.contactDetails = contactDetails;
     }
 
-    public String getBirthDate() {
-        return this.birthDate;
+    public LocalDate getBirthDate() {
+        return birthDate;
     }
 
-    public void setBirthDate(String birthDate) {
+    public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
 
@@ -58,7 +59,7 @@ public class ParticipantDTO extends  HolderDTO{
                 ", secondLastName='" + secondLastName + '\'' +
                 ", participantType=" + participantType +
                 ", contactDetails=" + contactDetails +
-                ", birthDate='" + birthDate + '\'' +
+                ", birthDate=" + birthDate +
                 '}';
     }
 }

@@ -2,7 +2,7 @@ package com.bbva.rbvd.dto.insuranceroyal.refund;
 
 import java.util.List;
 
-public class DataDTO {
+public class RefundCalculateDTO {
     private List<ParticipantDTO> participants;
     private TermDTO term;
     private List<RefundsDTO> refunds;
