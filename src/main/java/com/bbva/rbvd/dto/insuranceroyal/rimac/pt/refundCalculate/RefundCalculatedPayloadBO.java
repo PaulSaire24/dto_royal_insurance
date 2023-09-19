@@ -1,5 +1,6 @@
 package com.bbva.rbvd.dto.insuranceroyal.rimac.pt.refundCalculate;
 
+
 import com.bbva.rbvd.dto.insuranceroyal.commons.CommonsFieldsDTO;
 import com.bbva.rbvd.dto.insuranceroyal.refund.PorcentajeDTO;
 
@@ -58,6 +59,7 @@ public class RefundCalculatedPayloadBO extends CommonsFieldsDTO {
     }
 
     public void setPorcentajes(List<PorcentajeDTO> porcentajes) {
+
         this.porcentajes = porcentajes;
     }
 

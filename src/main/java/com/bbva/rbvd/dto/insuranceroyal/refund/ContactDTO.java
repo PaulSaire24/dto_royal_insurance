@@ -4,13 +4,15 @@ import java.io.Serializable;
 
 public class ContactDTO implements Serializable {
     private static final long serialVersionUID = 1L;
-
     private String contactDetailType;
     private String number;
     private String address;
 
+    public ContactDTO() {
+    }
+
     public String getContactDetailType() {
-        return contactDetailType;
+        return this.contactDetailType;
     }
 
     public void setContactDetailType(String contactDetailType) {
@@ -18,7 +20,7 @@ public class ContactDTO implements Serializable {
     }
 
     public String getNumber() {
-        return number;
+        return this.number;
     }
 
     public void setNumber(String number) {
@@ -26,19 +28,18 @@ public class ContactDTO implements Serializable {
     }
 
     public String getAddress() {
-        return address;
+        return this.address;
     }
 
     public void setAddress(String address) {
         this.address = address;
     }
 
-    @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("ContactDTO{");
-        sb.append("contactDetailType='").append(contactDetailType).append('\'');
-        sb.append(", number='").append(number).append('\'');
-        sb.append(", address='").append(address).append('\'');
+        StringBuilder sb = new StringBuilder("ContactDTO{");
+        sb.append("contactDetailType='").append(this.contactDetailType).append('\'');
+        sb.append(", number='").append(this.number).append('\'');
+        sb.append(", address='").append(this.address).append('\'');
         sb.append('}');
         return sb.toString();
     }

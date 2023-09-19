@@ -10,23 +10,48 @@ public class UnitDTO extends CommonsFieldsDTO {
     private BigDecimal decimal;
     private BigDecimal percentage;
 
-    public String getUnitType() {return unitType;}
-    public void setUnitType(String unitType) {this.unitType = unitType;}
-    public String getText() {return text;}
-    public void setText(String text) {this.text = text;}
-    public BigDecimal getDecimal() {return decimal;}
-    public void setDecimal(BigDecimal decimal) {this.decimal = decimal;}
-    public BigDecimal getPercentage() {return percentage;}
-    public void setPercentage(BigDecimal percentage) {this.percentage = percentage;}
+    public UnitDTO() {
+    }
+
+    public String getUnitType() {
+        return this.unitType;
+    }
+
+    public void setUnitType(String unitType) {
+        this.unitType = unitType;
+    }
+
+    public String getText() {
+        return this.text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public BigDecimal getDecimal() {
+        return this.decimal;
+    }
+
+    public void setDecimal(BigDecimal decimal) {
+        this.decimal = decimal;
+    }
+
+    public BigDecimal getPercentage() {
+        return this.percentage;
+    }
+
+    public void setPercentage(BigDecimal percentage) {
+        this.percentage = percentage;
+    }
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("UnitDTO{");
-        sb.append("unitType='").append(unitType).append('\'');
-        sb.append(", text='").append(text).append('\'');
-        sb.append(", decimal=").append(decimal);
-        sb.append(", percentage=").append(percentage);
-        sb.append('}');
-        return sb.toString();
+        return "UnitDTO{" +
+                "unitType='" + unitType + '\'' +
+                ", text='" + text + '\'' +
+                ", decimal=" + decimal +
+                ", percentage=" + percentage +
+                '}';
     }
 }

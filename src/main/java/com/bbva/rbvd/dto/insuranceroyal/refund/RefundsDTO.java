@@ -6,6 +6,9 @@ public class RefundsDTO implements Serializable {
     private static final long serialVersionUID = 1L;
     private UnitDTO unit;
 
+    public RefundsDTO() {
+    }
+
     public UnitDTO getUnit() {
         return unit;
     }

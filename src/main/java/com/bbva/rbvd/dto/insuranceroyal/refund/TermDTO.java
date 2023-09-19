@@ -5,10 +5,8 @@ import com.bbva.apx.dto.AbstractDTO;
 public class TermDTO extends AbstractDTO {
 
     public enum UNIT{YEARS}
-
     private Integer number;
     private UNIT unit;
-
 
     public Integer getNumber() {
         return number;

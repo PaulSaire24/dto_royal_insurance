@@ -3,16 +3,16 @@ package com.bbva.rbvd.dto.insuranceroyal.refund;
 import java.util.List;
 
 public class DataDTO {
-    private List<ParticipantDTO> participant;
+    private List<ParticipantDTO> participants;
     private TermDTO term;
     private List<RefundsDTO> refunds;
 
-    public List<ParticipantDTO> getParticipant() {
-        return participant;
+    public List<ParticipantDTO> getParticipants() {
+        return participants;
     }
 
-    public void setParticipant(List<ParticipantDTO> participant) {
-        this.participant = participant;
+    public void setParticipants(List<ParticipantDTO> participants) {
+        this.participants = participants;
     }
 
     public TermDTO getTerm() {
@@ -33,8 +33,8 @@ public class DataDTO {
 
     @Override
     public String toString() {
-        return "DataDTO{" +
-                "participant=" + participant +
+        return "RefundCalculateDTO{" +
+                "participants=" + participants +
                 ", term=" + term +
                 ", refunds=" + refunds +
                 '}';

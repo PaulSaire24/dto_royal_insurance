@@ -8,7 +8,7 @@ public class ExclusionDTO extends CommonsFieldsDTO {
         final StringBuilder sb = new StringBuilder("ExclusionDTO{");
         sb.append(super.toString());
         sb.append("id='").append(this.getId()).append('\'');
-        sb.append(", name=").append(this.getName()).append('\'');;
+        sb.append(", name=").append(this.getName()).append('\'');
         sb.append(", description=").append(this.getDescription());
         sb.append('}');
         return sb.toString();

@@ -1,11 +1,10 @@
 package com.bbva.rbvd.dto.insuranceroyal.refund;
 
 import com.bbva.rbvd.dto.insuranceroyal.commons.HolderDTO;
-import com.bbva.rbvd.dto.insuranceroyal.commons.CommonsFieldsDTO;
 
 import java.util.List;
 
-public class ParticipantDTO extends HolderDTO {
+public class ParticipantDTO extends  HolderDTO{
     private String middleName;
     private String secondLastName;
     private ParticipantTypeDTO participantType;
@@ -13,7 +12,7 @@ public class ParticipantDTO extends HolderDTO {
     private String birthDate;
 
     public String getMiddleName() {
-        return middleName;
+        return this.middleName;
     }
 
     public void setMiddleName(String middleName) {
@@ -21,7 +20,7 @@ public class ParticipantDTO extends HolderDTO {
     }
 
     public String getSecondLastName() {
-        return secondLastName;
+        return this.secondLastName;
     }
 
     public void setSecondLastName(String secondLastName) {
@@ -29,7 +28,7 @@ public class ParticipantDTO extends HolderDTO {
     }
 
     public ParticipantTypeDTO getParticipantType() {
-        return participantType;
+        return this.participantType;
     }
 
     public void setParticipantType(ParticipantTypeDTO participantType) {
@@ -37,7 +36,7 @@ public class ParticipantDTO extends HolderDTO {
     }
 
     public List<ContractDetailsDTO> getContactDetails() {
-        return contactDetails;
+        return this.contactDetails;
     }
 
     public void setContactDetails(List<ContractDetailsDTO> contactDetails) {
@@ -45,25 +44,21 @@ public class ParticipantDTO extends HolderDTO {
     }
 
     public String getBirthDate() {
-        return birthDate;
+        return this.birthDate;
     }
 
     public void setBirthDate(String birthDate) {
         this.birthDate = birthDate;
     }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("ParticipantDTO{");
-        sb.append("id='").append(getId()).append('\'');
-        sb.append(", firstName='").append(getFirstName()).append('\'');
-        sb.append(", middleName='").append(middleName).append('\'');
-        sb.append(", lastName='").append(getLastName()).append('\'');
-        sb.append(", secondLastName='").append(secondLastName).append('\'');
-        sb.append(", participantType=").append(participantType);
-        sb.append(", contactDetails=").append(contactDetails);
-        sb.append(", identityDocument='").append(getIdentityDocument()).append('\'');
-        sb.append(", birthDate='").append(birthDate).append('\'');
-        sb.append('}');
-        return sb.toString();
+        return "ParticipantDTO{" +
+                "middleName='" + middleName + '\'' +
+                ", secondLastName='" + secondLastName + '\'' +
+                ", participantType=" + participantType +
+                ", contactDetails=" + contactDetails +
+                ", birthDate='" + birthDate + '\'' +
+                '}';
     }
 }
