@@ -6,7 +6,7 @@ public class TermDTO extends AbstractDTO {
 
     public enum UNIT{YEARS}
     private Integer number;
-    private UNIT unit;
+    private UNIT unit=UNIT.YEARS;
 
     public Integer getNumber() {
         return number;
