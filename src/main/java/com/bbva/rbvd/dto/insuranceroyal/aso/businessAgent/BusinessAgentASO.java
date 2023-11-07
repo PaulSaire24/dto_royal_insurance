@@ -15,9 +15,6 @@ public class BusinessAgentASO implements Serializable {
     private PersonInChargeASO personInCharge;
     private BankASO bank;
 
-    public BusinessAgentASO() {
-    }
-
     public String getId() {
         return id;
     }

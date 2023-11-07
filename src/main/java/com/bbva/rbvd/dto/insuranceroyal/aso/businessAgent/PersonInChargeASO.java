@@ -9,9 +9,6 @@ public class PersonInChargeASO implements Serializable {
     private String registrationIdentifier;
     private String employeeId;
 
-    public PersonInChargeASO() {
-    }
-
     public String getEmployeeId() {
         return this.employeeId;
     }

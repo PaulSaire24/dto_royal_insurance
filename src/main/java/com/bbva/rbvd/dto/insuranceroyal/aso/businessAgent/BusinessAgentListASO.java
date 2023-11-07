@@ -7,9 +7,6 @@ public class BusinessAgentListASO implements Serializable {
     private static final long serialVersionUID = 1L;
     private List<BusinessAgentASO> data;
 
-    public BusinessAgentListASO() {
-    }
-
     public List<BusinessAgentASO> getData() {
         return this.data;
     }

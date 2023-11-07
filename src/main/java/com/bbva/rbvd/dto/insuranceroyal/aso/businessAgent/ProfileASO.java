@@ -8,9 +8,6 @@ public class ProfileASO implements Serializable {
     private String description;
     private String registrationIdentifier;
 
-    public ProfileASO() {
-    }
-
     public String getId() {
         return id;
     }

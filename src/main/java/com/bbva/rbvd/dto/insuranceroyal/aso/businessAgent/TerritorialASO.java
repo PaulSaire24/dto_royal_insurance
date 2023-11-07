@@ -8,9 +8,6 @@ public class TerritorialASO implements Serializable {
     private String description;
     private String registrationIdentifier;
 
-    public TerritorialASO() {
-    }
-
     public String getId() {
         return this.id;
     }
