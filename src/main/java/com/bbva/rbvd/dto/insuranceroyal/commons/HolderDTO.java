@@ -15,5 +15,4 @@ public class HolderDTO extends CommonsFieldsDTO {
         sb.append('}');
         return sb.toString();
     }
-
 }
