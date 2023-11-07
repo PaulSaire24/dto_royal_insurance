@@ -1,7 +1,9 @@
 package com.bbva.rbvd.dto.insuranceroyal.aso.businessAgent;
 
-public class BranchASO {
+import java.io.Serializable;
 
+public class BranchASO implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String id;
     private String description;
     private String registrationIdentifier;

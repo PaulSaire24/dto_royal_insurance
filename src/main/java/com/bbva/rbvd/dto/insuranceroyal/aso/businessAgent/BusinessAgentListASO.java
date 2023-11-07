@@ -1,8 +1,10 @@
 package com.bbva.rbvd.dto.insuranceroyal.aso.businessAgent;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class BusinessAgentListASO {
+public class BusinessAgentListASO implements Serializable {
+    private static final long serialVersionUID = 1L;
     private List<BusinessAgentASO> data;
 
     public BusinessAgentListASO() {
