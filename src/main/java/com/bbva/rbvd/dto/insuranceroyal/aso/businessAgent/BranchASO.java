@@ -8,9 +8,6 @@ public class BranchASO implements Serializable {
     private String description;
     private String registrationIdentifier;
 
-    public BranchASO() {
-    }
-
     public String getId() {
         return this.id;
     }

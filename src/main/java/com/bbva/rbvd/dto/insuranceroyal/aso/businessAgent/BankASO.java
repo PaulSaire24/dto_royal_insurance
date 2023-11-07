@@ -10,9 +10,6 @@ public class BankASO implements Serializable {
     private BranchASO branch;
     private TerritorialASO territorial;
 
-    public BankASO() {
-    }
-
     public String getId() {
         return this.id;
     }
