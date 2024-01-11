@@ -9,7 +9,7 @@ public class ErrorResponseDTO implements Serializable {
     private String message;
     private String type;
     private String typeAlert;
-    private long httpcode;
+    private Long httpcode;
 
     public String getCode() {
         return code;
@@ -39,7 +39,7 @@ public class ErrorResponseDTO implements Serializable {
         return httpcode;
     }
 
-    public void setHttpcode(int httpcode) {
+    public void setHttpcode(Long httpcode) {
         this.httpcode = httpcode;
     }
 
