@@ -3,11 +3,13 @@ package com.bbva.rbvd.dto.insuranceroyal.error;
 import java.io.Serializable;
 
 public class ErrorResponseDTO implements Serializable {
+
+    private static final long serialVersionUID = 1L;
     private String code;
     private String message;
     private String type;
     private String typeAlert;
-    private int httpcode;
+    private long httpcode;
 
     public String getCode() {
         return code;
@@ -33,7 +35,7 @@ public class ErrorResponseDTO implements Serializable {
         this.type = type;
     }
 
-    public int getHttpcode() {
+    public long getHttpcode() {
         return httpcode;
     }
 
