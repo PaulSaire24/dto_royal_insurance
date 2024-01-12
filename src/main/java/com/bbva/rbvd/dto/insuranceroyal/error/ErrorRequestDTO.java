@@ -1,6 +1,7 @@
 package com.bbva.rbvd.dto.insuranceroyal.error;
 
 import java.io.Serializable;
+import java.util.HashMap;
 import java.util.Map;
 
 public class ErrorRequestDTO implements Serializable {
