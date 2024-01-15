@@ -1,22 +1,22 @@
 package com.bbva.rbvd.dto.insuranceroyal.error;
 
 import java.io.Serializable;
-import java.util.Map;
+import java.util.List;
 
 public class ErrorRequestDTO implements Serializable {
     private static final long serialVersionUID = 1905122041950251207L;
-    private Map<String,Object> codes;
+    private List<DetailsErrorDTO> details;
     private String typeErrorScope;
     private String channel;
     private int httpCode;
     private String reference;
 
-    public Map<String, Object> getCodes() {
-        return codes;
+    public List<DetailsErrorDTO> getDetails() {
+        return details;
     }
 
-    public void setCodes(Map<String, Object> codes) {
-        this.codes = codes;
+    public void setDetails(List<DetailsErrorDTO> details) {
+        this.details = details;
     }
 
     public String getTypeErrorScope() {
@@ -54,7 +54,7 @@ public class ErrorRequestDTO implements Serializable {
     @Override
     public String toString() {
         return "ErrorRequestDTO{" +
-                "codes=" + codes +
+                "details=" + details +
                 ", typeErrorScope='" + typeErrorScope + '\'' +
                 ", channel='" + channel + '\'' +
                 ", httpCode=" + httpCode +
