@@ -8,7 +8,7 @@ public class ErrorRequestDTO implements Serializable {
     private List<DetailsErrorDTO> details;
     private String typeErrorScope;
     private String channel;
-    private int httpCode;
+    private Long httpCode;
     private String reference;
 
     public List<DetailsErrorDTO> getDetails() {
@@ -35,11 +35,11 @@ public class ErrorRequestDTO implements Serializable {
         this.channel = channel;
     }
 
-    public int getHttpCode() {
+    public Long getHttpCode() {
         return httpCode;
     }
 
-    public void setHttpCode(int httpCode) {
+    public void setHttpCode(Long httpCode) {
         this.httpCode = httpCode;
     }
 
