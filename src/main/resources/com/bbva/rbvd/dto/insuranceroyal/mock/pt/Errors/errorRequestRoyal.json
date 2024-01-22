@@ -1,0 +1,17 @@
+{
+  "code": "CP06",
+  "details": [
+    {
+      "code": "PER005005",
+      "value": "El campo nroDocumento de persona en su elemento 1 debe contener 8 caracteres"
+    },
+    {
+      "code": "PER005011",
+      "value": "El campo nroDocumento de persona en su elemento 1 con valor \\\"@\\\" no coincide para el patrón: 0-9"
+    }
+  ],
+  "typeErrorScope": "RIMAC",
+  "channel": "PIC",
+  "httpCode": 490,
+  "reference": "any reference"
+}

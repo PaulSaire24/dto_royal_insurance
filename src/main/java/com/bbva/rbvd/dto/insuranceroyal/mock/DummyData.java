@@ -3,6 +3,7 @@ package com.bbva.rbvd.dto.insuranceroyal.mock;
 import java.io.IOException;
 
 import com.bbva.rbvd.dto.insuranceroyal.aso.tier.TierASO;
+import com.bbva.rbvd.dto.insuranceroyal.error.ErrorRequestDTO;
 import com.bbva.rbvd.dto.insuranceroyal.pt.quotation.PTInsuranceQuotationDTO;
 import com.bbva.rbvd.dto.insuranceroyal.pt.simulation.PTInsuranceSimulationDTO;
 import com.bbva.rbvd.dto.insuranceroyal.rimac.pt.quotation.InsuranceQuotationBO;
@@ -64,6 +65,11 @@ public class DummyData {
 	public PTInsuranceSimulationDTO getPTMockRequest() throws IOException {
 		return objectMapperHelper.readValue(Thread.currentThread().getContextClassLoader().
 				getResourceAsStream("com/bbva/rbvd/dto/insuranceroyal/mock/pt/simulation/simulationRequest.json"), PTInsuranceSimulationDTO.class);
+	}
+
+	public ErrorRequestDTO getErrorRequestRoyal() throws IOException {
+		return this.objectMapperHelper.readValue(Thread.currentThread().getContextClassLoader().
+				getResourceAsStream("com/bbva/rbvd/dto/insuranceroyal/mock/pt/Errors/errorRequestRoyal.json"), ErrorRequestDTO.class);
 	}
 
 }

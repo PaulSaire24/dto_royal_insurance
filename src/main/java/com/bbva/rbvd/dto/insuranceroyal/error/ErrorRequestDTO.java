@@ -5,11 +5,20 @@ import java.util.List;
 
 public class ErrorRequestDTO implements Serializable {
     private static final long serialVersionUID = 1905122041950251207L;
+    private String code;
     private List<DetailsErrorDTO> details;
     private String typeErrorScope;
     private String channel;
     private Long httpCode;
     private String reference;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
 
     public List<DetailsErrorDTO> getDetails() {
         return details;
@@ -54,7 +63,8 @@ public class ErrorRequestDTO implements Serializable {
     @Override
     public String toString() {
         return "ErrorRequestDTO{" +
-                "details=" + details +
+                "code='" + code + '\'' +
+                ", details=" + details +
                 ", typeErrorScope='" + typeErrorScope + '\'' +
                 ", channel='" + channel + '\'' +
                 ", httpCode=" + httpCode +
